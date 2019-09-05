@@ -109,6 +109,8 @@ keymap = {
     "commit message": "g commit -m \"",
     "check out": "g checkout ",
     "check out new branch": "g checkout -b ",
+    "branch": ["g branch ", Key("enter")],
+    "branch all": ["g branch -a", Key("enter")], 
     # 
     "shell Whereami": "pwd ",
     "shell home": "~/",
