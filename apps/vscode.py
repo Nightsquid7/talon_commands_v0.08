@@ -79,8 +79,8 @@ context.keymap(
         "go to file <dgndictation>": [Key("cmd-p"), text],
         "master": Key("cmd-p"),
         # tabbing
-        "stiffy": Key("cmd-alt-left"),
-        "next tab": Key("cmd-alt-right"),
+        "left tab": Key("cmd-alt-left"),
+        "right tab": Key("cmd-alt-right"),
         "stippy": Key("cmd-alt-right"),
         "last tab": Key("cmd-alt-left"),
         "new tab": Key("cmd-n"),

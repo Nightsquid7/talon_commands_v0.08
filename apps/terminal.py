@@ -96,6 +96,20 @@ def new_server(m):
 
 
 keymap = {
+    # Personal keys 
+    "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    "code": "code ",
+    "node": "node ",
+    "plex beta": "xbeta ",
+
+    # git
+    "add you": "g add -u",
+    "glow": ["glo ", Key("enter")],
+    "sta": ["sta ", Key("enter")],
+    "commit message": "g commit -m \"",
+    "check out": "g checkout ",
+    "check out new branch": "g checkout -b ",
+    # 
     "shell Whereami": "pwd ",
     "shell home": "~/",
     "lefty": Key("ctrl-a"),
@@ -107,6 +121,7 @@ keymap = {
     # talon
     "tail talon": "tail -f ~/.talon/talon.log",
     "talon reple": "~/.talon/bin/repl",
+    "talon home": ["cd ~/.talon/user/talon_community/", Key("enter"), "ll ", Key("enter")],
     "reverse": Key("ctrl-r"),
     "rerun": [Key("up"), Key("enter")],
     "cd": ["cd ; ls", Key("left"), Key("left"), Key("left"), Key("left")],

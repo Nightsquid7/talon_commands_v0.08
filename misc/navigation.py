@@ -11,7 +11,7 @@ keymap = {
     "(scroll way down | doomway)": Key("cmd-down"),
     "(scroll way up | jeepway)": Key("cmd-up"),
     "page up": [Key("pageup")],
-    "page down": [Key("pagedown")],
+    "page down": [Key("pagedown")]
 }
 
 ctx.keymap(keymap)
