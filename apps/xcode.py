@@ -39,16 +39,18 @@ ctx.keymap(
         "toggle comment": Key("cmd-/"),
         "toggle breakpoint": Key("cmd-\\"),
         "toggle all breakpoints": Key("cmd-y"),
+        "go to line": Key("cmd-l"),
+        "editor": [Key("cmd-j"),Key("enter")],
         "move line up": Key("cmd-alt-["),
         "move line down": Key("cmd-alt-]"),
         "go (deafen | definition)": Key("cmd-ctrl-j"),
         "edit scheme": Key("cmd-shift-,"),
         "quick open": Key("cmd-shift-o"),
         "comm skoosh": "// ",
-        "(comm | comment) line": [
-            "//------------------------------------------------------------------------------",
-            Key("enter"),
-        ],
+        # mycommands
+        "comment line": Key("cmd-/"),
+        "print": ["print()", Key("left")],
+        "complete paren": ["(", Key("escape")],
         "step in": Key("f7"),
         "step over": Key("f6"),
         "step out": Key("f8"),
@@ -65,5 +67,10 @@ ctx.keymap(
         # the following require custom key bindings in xcode preferences
         "((partial | sub) [word] left | wonkrim)": Key("alt-ctrl-left"),
         "((partial | sub) [word] right | wonkrish)": Key("alt-ctrl-right"),
+
+        # SwiftUI
+        "horizontal stack": ["HStack {}", Key("left")],
+        "vertical stack": ["VStack {}", Key("left")],
+        "refresh preview": Key("cmd-alt-p")
     }
 )

@@ -68,6 +68,8 @@ ctx.keymap(
         "state for": ["for ()", Key("left")],
         "state switch": ["switch ()", Key("left")],
         "state case": ["case \nbreak;", Key("up")],
+        "state var": "var ",
+
         # Other Keywords
         "const": "const ",
         "static": "static ",
@@ -75,7 +77,8 @@ ctx.keymap(
         "tip (char | care)": "char ",
         "tip byte": "byte ",
         "tip float": "float ",
-        "tip double": "double ",
+        "tip double": "Double ",
+        "tip string": "String",
         # Comments
         "comment see": "// ",
         "comment py": "# ",

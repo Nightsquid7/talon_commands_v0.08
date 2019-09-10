@@ -98,19 +98,26 @@ def new_server(m):
 keymap = {
     # Personal keys 
     "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    "go to shell home": ["cd ~/ ; ls ", Key("enter")],
     "code": "code ",
     "node": "node ",
-    "plex beta": "xbeta ",
-
+    "plex beta": ["xbeta ", Key("enter")],
+    "yes": ["y", Key("enter")],
+    "no": ["n", Key("enter")],
+    "touch": "touch ",
     # git
-    "add you": "g add -u",
+    "add you": ["g add -u", Key("enter")],
+    "git add": "g add ",
     "glow": ["glo ", Key("enter")],
+    "git list files": ["g ls-files", Key("enter")],
+    "git remove": "g rm ",
     "sta": ["sta ", Key("enter")],
     "commit message": "g commit -m \"",
     "check out": "g checkout ",
     "check out new branch": "g checkout -b ",
     "branch": ["g branch ", Key("enter")],
     "branch all": ["g branch -a", Key("enter")], 
+    "git diff": "g diff ",
     # 
     "shell Whereami": "pwd ",
     "shell home": "~/",
@@ -124,6 +131,7 @@ keymap = {
     "tail talon": "tail -f ~/.talon/talon.log",
     "talon reple": "~/.talon/bin/repl",
     "talon home": ["cd ~/.talon/user/talon_community/", Key("enter"), "ll ", Key("enter")],
+    "open talon commands": ["code ~/.talon/user/talon_community/ ", Key("enter")],
     "reverse": Key("ctrl-r"),
     "rerun": [Key("up"), Key("enter")],
     "cd": ["cd ; ls", Key("left"), Key("left"), Key("left"), Key("left")],
