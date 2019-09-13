@@ -152,7 +152,8 @@ def new_search_existing_tab(m):
 
 context.keymap(
     {
-        # go to websites
+        # go to websites 
+        # [focus_address_bar, "", Key("enter")],
         "fsu canvas": [focus_address_bar, "https://canvas.fsu.edu/login?needs_cookies=1", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "copy url": Key("escape y y"),
