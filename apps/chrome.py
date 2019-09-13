@@ -174,6 +174,7 @@ context.keymap(
         "(end | rightmost) tab": Key("cmd-9"),
         "marco": Key("cmd-f"),
         "marneck": Key("cmd-g"),
+        "do it": [Key("escape"), Key("enter")],
         "(last | prevous)": Key("cmd-shift-g"),
         "toggle dev tools": Key("cmd-alt-i"),
         "command menu": Key("cmd-shift-p"),
