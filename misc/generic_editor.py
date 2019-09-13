@@ -206,8 +206,8 @@ ctx.keymap(
         "(redo it)": Key("cmd-shift-z"),
         # clipboard
         "snatch": Key("cmd-x"),
-        "stoosh": Key("cmd-c"),
-        "spark": Key("cmd-v"),
+        "copy": Key("cmd-c"),
+        "paste": Key("cmd-v"),
         "(clip paste preserve formatting | match spark)": Key("cmd-shift-alt-v"),
         # motions
         "([go] 1 right | fish)": Key("alt-right"),
@@ -230,12 +230,14 @@ ctx.keymap(
             "ctrl-a cmd-left shift-down cmd-c down cmd-v"
         ),
         # deleting
+        # My name i am a good boy 
+        
         "(delete around this | slurp)": Key("backspace delete"),
         "(delete line left | snip left)": Key("shift-cmd-left delete"),
         "(delete line right | snip right)": Key("shift-cmd-right delete"),
         "(delete [this] line)": Key("shift-cmd-right delete delete ctrl-a cmd-left"),
-        "(delete word left | trough | steffi | carmex)": Key("alt-backspace"),
-        "(delete word right | stippy | kite)": Key("alt-delete"),
+        "(delete word left | steffi | carmex)": Key("alt-backspace"),
+        "(delete word right | kite)": Key("alt-delete"),
         "(delete [this] word | slurpies)": Key("alt-backspace alt-delete"),
         # selecting
         "(crew | find right) <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="right"),

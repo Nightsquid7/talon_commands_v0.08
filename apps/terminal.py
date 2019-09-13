@@ -105,6 +105,7 @@ keymap = {
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")],
     "touch": "touch ",
+    "grep talon": ["grep   */*"],
     # git
     "add you": ["g add -u", Key("enter")],
     "git add": "g add ",

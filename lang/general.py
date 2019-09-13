@@ -72,13 +72,14 @@ ctx.keymap(
 
         # Other Keywords
         "const": "const ",
-        "static": "static ",
+        #"static": "static ",
         "tip pent": "int ",
         "tip (char | care)": "char ",
         "tip byte": "byte ",
         "tip float": "float ",
         "tip double": "Double ",
         "tip string": "String",
+        "tip null": "null",
         # Comments
         "comment see": "// ",
         "comment py": "# ",
