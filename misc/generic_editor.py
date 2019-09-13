@@ -260,9 +260,9 @@ ctx.keymap(
         "small word neck {generic_editor.n}*": small_word_neck,
         "( (select | sell) word number {generic_editor.n}* below | wordneck {generic_editor.n}*)": word_neck,
         "word {generic_editor.n}": word_number,
-        "((select | sell) word left | scram)": Key("alt-shift-left"),
-        "((select | sell) word right | scrish)": Key("alt-shift-right"),
-        "((select | sell) line left | lecksy)": Key("cmd-shift-left"),
-        "((select | sell) line right | ricksy)": Key("cmd-shift-right"),
+        "([(select | sell)] word left | scram)": Key("alt-shift-left"),
+        "([(select | sell)] word right | scrish)": Key("alt-shift-right"),
+        "([(select | sell)] line left | lecksy)": Key("cmd-shift-left"),
+        "([(select | sell)] line right | ricksy)": Key("cmd-shift-right"),
     }
 )
