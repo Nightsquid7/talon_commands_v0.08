@@ -76,6 +76,8 @@ ctx.keymap(
         "downloads": Key("cmd-shift-l"),
         "applications": Key("cmd-shift-a"),
         "developer": go_to_path("~/Developer"),
+        "fsu folder": go_to_path("/Users/stevenberkowitz/Documents/FSU Computer Science/Fall 2019"),
+        "gugrit folder": go_to_path("/Users/stevenberkowitz/Development/gugrit"),
         "talon": go_to_path("~/.talon/user"),
         # NOT WORKING "(delete | empty) trash": Key("cmd-shift-del"),
         "spotlight [menu]": Key("cmd-space"),

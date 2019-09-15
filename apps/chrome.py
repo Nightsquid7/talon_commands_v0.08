@@ -155,6 +155,9 @@ context.keymap(
         # go to websites 
         # [focus_address_bar, "", Key("enter")],
         "fsu canvas": [focus_address_bar, "https://canvas.fsu.edu/login?needs_cookies=1", Key("enter")],
+        "github": [focus_address_bar, "https://github.com", Key("enter")],
+        "gugrit ":  [focus_address_bar, "https://github.com/TonnyXu/gugrit-its", Key("enter")],
+        "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "copy url": Key("escape y y"),
         "go back": back,
