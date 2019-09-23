@@ -158,6 +158,7 @@ context.keymap(
         "github": [focus_address_bar, "https://github.com", Key("enter")],
         "gugrit ":  [focus_address_bar, "https://github.com/TonnyXu/gugrit-its", Key("enter")],
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
+        "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "copy url": Key("escape y y"),
         "go back": back,
@@ -210,7 +211,7 @@ context.keymap(
         # "move tab right": Key("ctrl-shift-right"),
         # "move tab left way": Key("ctrl-shift-down"),
         # vimium
-        "link": link,
+        #"link": link,
         "move tab left": browser.send_to_vimium("<<"),
         "move tab right": browser.send_to_vimium(">>"),
         "move tab new window": browser.send_to_vimium("W"),

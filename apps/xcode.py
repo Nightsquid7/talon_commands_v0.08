@@ -40,9 +40,12 @@ ctx.keymap(
         "toggle breakpoint": Key("cmd-\\"),
         "toggle all breakpoints": Key("cmd-y"),
         "go to line": Key("cmd-l"),
+        "line end": [Key("down"), Key("up"),Key("cmd-right")],
         "editor": [Key("cmd-j"),Key("enter")],
+
         "move line up": Key("cmd-alt-["),
         "move line down": Key("cmd-alt-]"),
+
         "go (deafen | definition)": Key("cmd-ctrl-j"),
         "edit scheme": Key("cmd-shift-,"),
         "quick open": Key("cmd-shift-o"),

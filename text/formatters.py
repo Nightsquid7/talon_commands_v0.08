@@ -53,7 +53,7 @@ formatters = normalise_keys(
         "tridal": (False, lambda i, word, _: word.capitalize()),
         "snake": (True, lambda i, word, _: word if i == 0 else "_" + word),
         "dotsnik": (True, lambda i, word, _: "." + word if i == 0 else "_" + word),
-        "dot": (True, lambda i, word, _: "." + word if i == 0 else "_" + word),
+        "dot": (True, lambda i, word, _: "." + word if i == 0 else word.capitalize()),
         "smash": (True, lambda i, word, _: word),
         "(spine | kebab)": (True, lambda i, word, _: word if i == 0 else "-" + word),
         "turtle": (False, title_case_capitalize_word),
@@ -63,13 +63,13 @@ formatters = normalise_keys(
 surrounders = normalise_keys(
     {
         "(dubstring | coif)": (False, surround('"')),
-        "(string | posh)": (False, surround("'")),
+        "(surround string)": (False, surround("'")),
         "(tics | glitch)": (False, surround("`")),
         "padded": (False, surround(" ")),
-        "dunder": (False, surround("__")),
+        # "dunder": (False, surround("__")),
         "angler": (False, surround("<", ">")),
         "brax": (False, surround("[", "]")),
-        "kirk": (False, surround("{", "}")),
+        #"kirk": (False, surround("{", "}")),
         "precoif": (False, surround('("', '")')),
         "(prex | args)": (False, surround("(", ")")),
     }

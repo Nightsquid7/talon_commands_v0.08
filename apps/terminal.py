@@ -99,6 +99,8 @@ keymap = {
     # Personal keys 
     "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
+    "new terminal window": 
+    [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
@@ -123,7 +125,22 @@ keymap = {
     "git branch": "git branch ",
     "git diff": "g diff ",
     "git rebase": "g rebase -i ",
-    # 
+    # emacs
+    "emacs safe": [Key("ctrl-x"), Key("ctrl-s")],
+    "emacs quit": [Key("ctrl-x"), Key("ctrl-c")],
+    "emacs open": "emacs ",
+    "save and run": [Key("ctrl-x"), Key("ctrl-s"), Key("cmd-`"), "run", Key("enter")],
+    "mark start": [Key("ctrl-space")],
+    "mark end": Key("ctrl-w"),
+    "emacs paste": Key("ctrl-y"),
+    # fsu Comp Sci
+    "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
+    "run": ["run", Key("enter")],
+    "make": ["make ", Key("enter")],
+    "run test": ["runTest", Key("enter")],
+    "open asm template": ["emacs assem-template.c", Key("enter")],
+    "type password": ["Sug7&77z",Key("enter")],
+    "make directory" : "mkdir ",
     "shell Whereami": "pwd ",
     "shell home": "~/",
     "lefty": Key("ctrl-a"),

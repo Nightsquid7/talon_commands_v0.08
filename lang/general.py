@@ -13,7 +13,7 @@ ctx.keymap(
         "(op (minus | subtract) | deminus)": " - ",
         "(op (plus | add) | deplush)": " + ",
         "(op (times | multiply) | duster)": " * ",
-        "(op divide | divy)": " / ",
+        "(op divide)": " / ",
         "op mod": " % ",
         "((op minus | subtract) equals | minus assign)": " -= ",
         "((op plus | add) equals | (plus | add) assign)": " += ",
