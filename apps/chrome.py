@@ -159,6 +159,7 @@ context.keymap(
         "gugrit ":  [focus_address_bar, "https://github.com/TonnyXu/gugrit-its", Key("enter")],
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
+        "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "copy url": Key("escape y y"),
         "go back": back,
