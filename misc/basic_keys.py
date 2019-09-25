@@ -25,7 +25,7 @@ simple_keys = normalise_keys(
         "(tab | tarp)": "tab",
         "( enter | shock )": "enter",
         "( escape | randall )": "escape",
-        "home": "home",
+        "home key": "home",
         "pagedown": "pagedown",
         "pageup": "pageup",
         "end": "end",
