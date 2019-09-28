@@ -161,6 +161,9 @@ context.keymap(
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
+        "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
+        
+         Key("down"),Key("down"), Key("down"), Key("down")],
         "copy url": Key("escape y y"),
         "go back": back,
         "go forward": forward,
@@ -168,7 +171,7 @@ context.keymap(
         "reload page": Key("cmd-r"),
         "hard reload": Key("cmd-shift-r"),
         "new tab": Key("cmd-t"),
-        "new tab {global_browser.webpages}": go_to_webpage,
+        #"new tab {global_browser.webpages}": go_to_webpage,
         "new search {global_browser.searches} [<dgndictation>]": new_search_new_tab,
         "search {global_browser.searches} [<dgndictation>]": new_search_existing_tab,
         "close tab": Key("cmd-w"),

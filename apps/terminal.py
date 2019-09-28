@@ -108,8 +108,10 @@ keymap = {
     "open workspace": ["open *space ", Key("enter")],
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")],
+    # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],
+    
     # git
     "git pull": "g pull",
     "add you": ["g add -u", Key("enter")],
@@ -129,11 +131,17 @@ keymap = {
     # emacs
     "emacs safe": [Key("ctrl-x"), Key("ctrl-s")],
     "emacs quit": [Key("ctrl-x"), Key("ctrl-c")],
+    "emacs undo": [Key("ctrl-x"), Key("u")],
     "emacs open": "emacs ",
+    "emacs clear line": [Key("ctrl-k")],
     "save and run": [Key("ctrl-x"), Key("ctrl-s"), Key("cmd-`"), "run", Key("enter")],
     "mark start": [Key("ctrl-space")],
     "mark end": Key("ctrl-w"),
     "emacs paste": Key("ctrl-y"),
+    "emacs brace": ["{", Key("enter"), Key("enter"), "}", Key("up"), Key("tab")],
+    # C Commands
+    "see print": ["printf();", Key("left"),Key("left")],
+    "see scan": ["sscanf(,)"],
     # fsu Comp Sci
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
     "run": ["run", Key("enter")],
