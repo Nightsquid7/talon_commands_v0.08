@@ -114,7 +114,7 @@ keymap = {
     
     # git
     "git pull": "g pull",
-    "add you": ["g add -u", Key("enter")],
+    "add you": ["g add -u", Key("enter"), "sta", Key("enter")],
     "git add": "g add ",
     "glow": ["glo ", Key("enter")],
     "git list files": ["g ls-files", Key("enter")],
@@ -133,7 +133,8 @@ keymap = {
     "emacs quit": [Key("ctrl-x"), Key("ctrl-c")],
     "emacs undo": [Key("ctrl-x"), Key("u")],
     "emacs open": "emacs ",
-    "emacs clear line": [Key("ctrl-k")],
+    "emacs clear line": [Key("ctrl-a"), Key("ctrl-k"), Key("tab")],
+    "emacs comment line": [Key("ctrl-a"), "//"],
     "save and run": [Key("ctrl-x"), Key("ctrl-s"), Key("cmd-`"), "run", Key("enter")],
     "mark start": [Key("ctrl-space")],
     "mark end": Key("ctrl-w"),
@@ -150,6 +151,10 @@ keymap = {
     "open asm template": ["emacs assem-template.c", Key("enter")],
     "type password": ["Sug7&77z",Key("enter")],
     "make directory" : "mkdir ",
+    # cda assignment3
+    "simulate": ["sim.exe", Key("enter")],
+    "state union": "insts[index].u.",
+    #
     "shell Whereami": "pwd ",
     "shell home": "~/",
     "lefty": Key("ctrl-a"),

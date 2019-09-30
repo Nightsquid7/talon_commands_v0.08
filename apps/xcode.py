@@ -54,6 +54,8 @@ ctx.keymap(
         "comment line": Key("cmd-/"),
         "print": ["print()", Key("left")],
         "complete paren": ["(", Key("escape")],
+        "state function": "func ",
+        "state in it": "init()",
 
         
         "step in": Key("f7"),
