@@ -236,7 +236,7 @@ ctx.keymap(
         "(delete line left | snip left)": Key("shift-cmd-left delete"),
         "(delete line right | snip right)": Key("shift-cmd-right delete"),
         "(delete [this] line)": Key("shift-cmd-right delete delete ctrl-a cmd-left"),
-        "(delete word left | steffi | carmex)": Key("alt-backspace"),
+        "(delete word left | steffi )": Key("alt-backspace"),
         "(delete word right | kite)": Key("alt-delete"),
         "(delete [this] word | slurpies)": Key("alt-backspace alt-delete"),
         # selecting
@@ -252,7 +252,7 @@ ctx.keymap(
         "((select | sell) down )": Key("shift-down"),
         "((select | sell) way down )": Key("cmd-shift-down"),
         "((select | sell) way up )": Key("cmd-shift-up"),
-        "((select | sell) all | olly | ali)": Key("cmd-a"),
+        "((select | sell) all )": Key("cmd-a"),
         "((select | sell) left )": Key("shift-left"),
         "((select | sell) right)": Key("shift-right"),
         "((select | sell) word number {generic_editor.n}* above | wordpreev {generic_editor.n}*)": word_prev,

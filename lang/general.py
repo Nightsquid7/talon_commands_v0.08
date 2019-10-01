@@ -68,7 +68,10 @@ ctx.keymap(
         "state for": ["for ()", Key("left")],
         "state switch": ["switch ()", Key("left")],
         "state case": ["case \nbreak;", Key("up")],
+        # Swift
         "state var": "var ",
+        "state let": "let ",
+        "state if let": "if let ",
 
         # Other Keywords
         "const": "const ",

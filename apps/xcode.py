@@ -53,9 +53,11 @@ ctx.keymap(
         # mycommands
         "comment line": Key("cmd-/"),
         "print": ["print()", Key("left")],
+        "print string": ["\()", Key("left")],
         "complete paren": ["(", Key("escape")],
         "state function": "func ",
         "state in it": "init()",
+
 
         
         "step in": Key("f7"),
@@ -78,6 +80,15 @@ ctx.keymap(
         # SwiftUI
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
-        "refresh preview": Key("cmd-alt-p")
+        "refresh preview": Key("cmd-alt-p"),
+        "spacer": ["Spacer()", Key("cmd-left"), Key("tab")],
+        "make button": ["""Button(action:  {
+
+
+                }, label:  {
+                    Text("")
+
+                 """]
+
     }
 )
