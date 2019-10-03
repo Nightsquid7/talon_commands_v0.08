@@ -55,6 +55,9 @@ def select_lines_function(m):
 
 context.keymap(
     {
+        # Editing Talon
+        "key it": ["Key(\"\")", Key("left"),Key("left")],
+        
         # Selecting text
         "select line"
         + optional_numerals
@@ -81,8 +84,6 @@ context.keymap(
         # tabbing
         "left tab": Key("cmd-alt-left"),
         "right tab": Key("cmd-alt-right"),
-        "stippy": Key("cmd-alt-right"),
-        "last tab": Key("cmd-alt-left"),
         "new tab": Key("cmd-n"),
         "jump" + optional_numerals: jump_tabs,
         # Menu
