@@ -163,8 +163,8 @@ context.keymap(
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
-        
          Key("down"),Key("down"), Key("down"), Key("down")],
+        "Open in new tab": [Key("esc"), Key("cmd-enter")],
         "copy url": Key("escape y y"),
         "go back": back,
         "go forward": forward,

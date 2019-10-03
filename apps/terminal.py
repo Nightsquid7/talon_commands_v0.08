@@ -154,6 +154,7 @@ keymap = {
     # cda assignment3
     "simulate": ["sim.exe", Key("enter")],
     "state union": "insts[index].u.",
+    "state address": "*addressOf(",
     #
     "shell Whereami": "pwd ",
     "shell home": "~/",

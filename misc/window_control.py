@@ -38,7 +38,7 @@ ctx.keymap(
         "quit it": Key("cmd-q"),
         # application navigation
         "[open] launcher": Key("cmd-space"),
-        "([switch] app (next | right) | swick)": Key("cmd-tab"),
+        "([switch] app (next | right) | switch it)": Key("cmd-tab"),
         "[switch] app (left | previous | preev)": Key("cmd-shift-tab"),
         "[open] mission control": lambda m: macos.dock_notify("com.apple.expose.awake"),
         "[open] launchpad": lambda m: macos.dock_notify("com.apple.launchpad.toggle"),

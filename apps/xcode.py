@@ -57,7 +57,7 @@ ctx.keymap(
         "complete paren": ["(", Key("escape")],
         "state function": "func ",
         "state in it": "init()",
-
+        "guard let": "guard let ",
 
         
         "step in": Key("f7"),
