@@ -230,7 +230,9 @@ ctx.keymap(
             "ctrl-a cmd-left shift-down cmd-c down cmd-v"
         ),
         # deleting
-        # My name i am a good boy 
+
+
+
         
         "(delete around this | slurp)": Key("backspace delete"),
         "(delete line left | snip left)": Key("shift-cmd-left delete"),
