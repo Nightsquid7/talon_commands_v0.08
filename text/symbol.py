@@ -11,7 +11,7 @@ keymap = {
     "(dollar [sign] | dolly)": "$",
     "(downscore)": "_",
     "colon": ":",
-    "(lparen | [left] paren | precorp )": "(",
+    "(lparen | [left] paren | precorp )": "(", 
     "(rparen | are paren | right paren | precose)": ")",
     "(brace | left brace | kirksorp)": "{",
     "(rbrace | are brace | right brace | kirkos)": "}",
@@ -38,6 +38,7 @@ keymap = {
     "(dot dot | dotdot)": "..",
     "(ellipsis | dot dot dot | dotdotdot)": "...",
     # unnecessary: use repetition commands?
+    "splash": " - "
 }
 
 ctx.keymap(keymap)
