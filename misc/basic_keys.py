@@ -20,15 +20,15 @@ simple_keys = normalise_keys(
         "jeep": "up",
         "(dune | doom )": "down",
         "(backspace | junk )": "backspace",
-        "(delete | forward delete | scrap | spunk)": "delete",
-        "(space | skoosh)": "space",
+        "delete": "delete",
+        "space": "space",
         "(tab | tarp)": "tab",
-        "(enter | shock )": "enter",
-        "(escape | randall )": "escape",
+        "enter": "enter",
+        "escape": "escape",
         "home key": "home",
         "pagedown": "pagedown",
         "pageup": "pageup",
-        "end": "end",
+        "end key": "end",
     }
 )
 
