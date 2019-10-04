@@ -66,7 +66,7 @@ ctx.keymap(
         "(cycle | switch) [window]": Key("cmd-`"),
         "computer": Key("cmd-shift-c"),
         "desktop": Key("cmd-shift-d"),
-        "all files": Key("cmd-shift-f"),
+        #"all files": Key("cmd-shift-f"),
         "go to": Key("cmd-shift-g"),
         "home": Key("cmd-shift-h"),
         "icloud": Key("cmd-shift-i"),

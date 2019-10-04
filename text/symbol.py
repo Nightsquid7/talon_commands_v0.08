@@ -12,13 +12,13 @@ keymap = {
     "(downscore)": "_",
     "colon": ":",
     "(lparen | [left] paren | precorp )": "(", 
-    "(rparen | are paren | right paren | precose)": ")",
+    "(rparen | are paren | right paren )": ")",
     "(brace | left brace | kirksorp)": "{",
-    "(rbrace | are brace | right brace | kirkos)": "}",
+    "(rbrace | are brace | right brace )": "}",
     "(angle | left angle | less than)": "<",
     "(rangle | are angle | right angle | greater than)": ">",
     "(star | asterisk)": "*",
-    "(pound | hash [sign] | octo | number sign)": "#",
+    "(pound | hash [sign] | number sign)": "#",
     "percent [sign]": "%",
     "caret": "^",
     "at sign": "@",
@@ -38,7 +38,9 @@ keymap = {
     "(dot dot | dotdot)": "..",
     "(ellipsis | dot dot dot | dotdotdot)": "...",
     # unnecessary: use repetition commands?
-    "splash": " - "
+    # Custom Symbols
+    "spash": " - ", 
+    "all files": " */* ",
 }
 
 ctx.keymap(keymap)
