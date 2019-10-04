@@ -210,6 +210,12 @@ ctx.keymap(
         "paste": Key("cmd-v"),
         "(clip paste preserve formatting | match spark)": Key("cmd-shift-alt-v"),
         # motions
+        "2 jeep": [Key("up")] * 2,
+        "3 jeep": [Key("up")] * 3,
+        "4 jeep": [Key("up")] * 4,
+        "2 dune": [Key("down")] * 2,
+        "3 dune": [Key("down")] * 3,
+        "4 dune": [Key("down")] * 4,
         "fish": Key("alt-right"),
         "2 fish": [Key("alt-right")] * 2,
         "3 fish": [Key("alt-right")] * 3,
