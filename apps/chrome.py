@@ -160,6 +160,7 @@ context.keymap(
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
+        "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
