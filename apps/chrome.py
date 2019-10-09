@@ -230,8 +230,10 @@ context.keymap(
             Key("enter"),
         ],
         "open most recently downloaded file": open_most_recently_downloaded_file,
+        "open extensions": [set_url("chrome://extensions/")],
     }
 )
+
 
 
 def global_chrome_new_tab(m):

@@ -200,8 +200,8 @@ def word_number(m):
 
 ctx.keymap(
     {
-        # meta
-        "(save it)": Key("cmd-s"),
+        # meta 
+        "save it": Key("cmd-s"),
         "(undo it)": Key("cmd-z"),
         "(redo it)": Key("cmd-shift-z"),
         # clipboard
