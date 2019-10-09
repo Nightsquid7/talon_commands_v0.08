@@ -230,7 +230,7 @@ context.keymap(
             Key("enter"),
         ],
         "open most recently downloaded file": open_most_recently_downloaded_file,
-        "open extensions": [set_url("chrome://extensions/")],
+        
     }
 )
 
