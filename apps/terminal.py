@@ -98,6 +98,8 @@ def new_server(m):
 keymap = {
     # Personal keys 
     "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    "fsu folder": ["fsu", Key("enter")],
+    "cem group project": ["cd /Users/stevenberkowitz/Documents/FSU\ Computer\ Science/Fall\ 2019/CEN4020/CEN-4020-Group-Project/Gungeon/Gungeon; ls -la", Key("enter")],
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
@@ -105,7 +107,7 @@ keymap = {
     "node": "node ",
     "osc": ["osc", Key("enter")],
     "plex beta": ["xbeta ", Key("enter")],
-    "open workspace": ["open *space ", Key("enter")],
+    "open workspace": ["open -a 'Xcode.app' *space ", Key("enter")],
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")],
     # Unix
