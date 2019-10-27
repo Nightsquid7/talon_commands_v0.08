@@ -100,6 +100,7 @@ keymap = {
     "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
     "cem group project": ["cd /Users/stevenberkowitz/Documents/FSU\ Computer\ Science/Fall\ 2019/CEN4020/CEN-4020-Group-Project/Gungeon/Gungeon; ls -la", Key("enter")],
+    "open unity": "open -a Unity",
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
@@ -156,6 +157,7 @@ keymap = {
     "open asm template": ["emacs assem-template.c", Key("enter")],
     "type password": ["Sug7&77z",Key("enter")],
     "make directory" : "mkdir ",
+
     # cda assignment3
     "simulate": ["sim.exe", Key("enter")],
     "state union": "insts[index].u.",
