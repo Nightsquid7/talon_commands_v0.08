@@ -18,6 +18,7 @@ ctx.keymap(
         "word shell": "shell",
         "word talon": "talon",
         "word stephen": "Steven",
-        "word enter": "enter"
+        "word enter": "enter",
+        "word get": "git"
     }
 )
