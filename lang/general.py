@@ -56,7 +56,7 @@ ctx.keymap(
         # Combos
         "coalshock": [":", Key("enter")],
         "comshock": [",", Key("enter")],
-        "sinker": [Key("cmd-right ;")],
+        #   "sinker": [Key("cmd-right ;")],
         "swipe": ", ",
         "coalgap": ": ",
         "[forward] slasher": "// ",
@@ -76,13 +76,13 @@ ctx.keymap(
         # Other Keywords
         "const": "const ",
         #"static": "static ",
-        "tip pent": "int ",
+        "tip pent": "Int ",
         "tip (char | care)": "char ",
         "tip byte": "byte ",
         "tip float": "float ",
         "tip double": "Double ",
         "tip string": "String",
-        "tip null": "null",
+        "tip null": "nil",
         # Comments
         "comment see": "// ",
         "comment py": "# ",
