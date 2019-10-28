@@ -77,6 +77,7 @@ ctx.keymap(
         "const": "const ",
         #"static": "static ",
         "tip pent": "Int ",
+        "tip pool": "Bool ",
         "tip (char | care)": "char ",
         "tip byte": "byte ",
         "tip float": "float ",
