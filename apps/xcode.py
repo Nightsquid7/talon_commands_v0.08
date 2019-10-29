@@ -77,7 +77,9 @@ ctx.keymap(
         "((partial | sub) [word] left | wonkrim)": Key("alt-ctrl-left"),
         "((partial | sub) [word] right | wonkrish)": Key("alt-ctrl-right"),
 
-        # SwiftUI
+        # SwiftUI/Combine
+        ".sync": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
+                Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "refresh preview": Key("cmd-alt-p"),
