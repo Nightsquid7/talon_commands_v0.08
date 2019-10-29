@@ -85,7 +85,7 @@ context.keymap(
         "left tab": Key("cmd-alt-left"),
         "right tab": Key("cmd-alt-right"),
         "new tab": Key("cmd-n"),
-        "jump" + optional_numerals: jump_tabs,
+        #"jump" + optional_numerals: jump_tabs,
         # Menu
         "save": Key("cmd+s"),
         "open": Key("cmd+o"),
