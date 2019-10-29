@@ -24,7 +24,8 @@ keymap = {
     "at sign": "@",
     "(and sign | ampersand | amper)": "&",
     "(pipe | spike)": "|",
-    "(dubquote | double quote | quatches)": '"',
+    "(dubquote | double quote | dubber)": '"',
+   
     # compound
     "mintwice": "--",
     "plustwice": "++",

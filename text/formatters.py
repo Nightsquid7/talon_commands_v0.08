@@ -71,7 +71,7 @@ surrounders = normalise_keys(
         "brax": (False, surround("[", "]")),
         #"kirk": (False, surround("{", "}")),
         "precoif": (False, surround('("', '")')),
-        "(prex | args)": (False, surround("(", ")")),
+        "(prex)": (False, surround("(", ")")),
     }
 )
 
