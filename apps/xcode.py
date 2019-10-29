@@ -78,7 +78,8 @@ ctx.keymap(
         "((partial | sub) [word] right | wonkrish)": Key("alt-ctrl-right"),
 
         # SwiftUI/Combine
-        ".sync": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
+        ".sync": ".sink(",
+        ".sync full": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
                 Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
