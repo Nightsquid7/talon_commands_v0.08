@@ -11,6 +11,7 @@ ctx.keymap(
         "build it": Key("cmd-b"),
         "stop it": Key("cmd-."),
         "run it": Key("cmd-r"),
+        "run playground": Key("shift-cmd-enter"),
         "go back": Key("cmd-ctrl-left"),
         "go (fore | forward)": Key("cmd-ctrl-right"),
         "find in (proj | project)": Key("cmd-shift-f"),
