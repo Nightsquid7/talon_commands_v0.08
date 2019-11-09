@@ -87,5 +87,7 @@ ctx.keymap(
         # Comments
         "comment see": "// ",
         "comment py": "# ",
+        # custom
+        "get checkmark": "- [ ] "
     }
 )

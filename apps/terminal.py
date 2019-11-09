@@ -151,7 +151,7 @@ keymap = {
     "see scan": ["sscanf(,)"],
     # fsu Comp Sci
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
-    "run": ["run", Key("enter")],
+    #"run": ["run", Key("enter")],
     "make": ["make ", Key("enter")],
     "run test": ["runTest", Key("enter")],
     "open asm template": ["emacs assem-template.c", Key("enter")],
