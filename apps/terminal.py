@@ -99,6 +99,7 @@ keymap = {
     # Personal keys 
     "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
+    "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
     "cem group project": ["cd /Users/stevenberkowitz/Documents/FSU\ Computer\ Science/Fall\ 2019/CEN4020/CEN-4020-Group-Project/Gungeon/Gungeon; ls -la", Key("enter")],
     "open unity": "open -a Unity",
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
