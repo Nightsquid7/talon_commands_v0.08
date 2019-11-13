@@ -88,6 +88,7 @@ ctx.keymap(
         "comment see": "// ",
         "comment py": "# ",
         # custom
-        "get checkmark": "- [ ] "
+        "get checkmark": "- [ ] ",
+        "js print": ["console.log()", Key("left")]
     }
 )

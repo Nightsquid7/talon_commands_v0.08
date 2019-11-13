@@ -245,7 +245,7 @@ ctx.keymap(
         "(delete word right | kite)": Key("alt-delete"),
         "(delete [this] word | slurpies)": Key("alt-backspace alt-delete"),
         # selecting
-        "(crew | find right) <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="right"),
+        "find right <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="right"),
         "(select | sell) (crew | find right) <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="shift-right"),
         "(trail | find left) <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="left"),
         "(select | sell) (trail | find left) <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="shift-left"),
