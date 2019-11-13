@@ -83,7 +83,7 @@ ctx.keymap(
         "tip float": "float ",
         "tip double": "Double ",
         "tip string": "String",
-        "tip null": "nil",
+        "miller": "nil",
         # Comments
         "comment see": "// ",
         "comment py": "# ",
