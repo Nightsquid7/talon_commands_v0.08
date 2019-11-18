@@ -21,6 +21,7 @@ ctx.keymap(
         "word enter": "enter",
         "word get": "git",
         "onyx": "o",
-        "shift onyx": "O"
+        "shift onyx": "O",
+        "word error": "error"
     }
 )
