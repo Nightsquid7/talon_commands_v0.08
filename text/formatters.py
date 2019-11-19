@@ -27,15 +27,15 @@ def title_case_capitalize_word(index, word, _):
 formatters = normalise_keys(
     {
         "tree": (True, lambda i, word, _: word[0:3] if i == 0 else ""),
-        "quad": (True, lambda i, word, _: word[0:4] if i == 0 else ""),
-        "(cram | camel)": (
+        #"quad": (True, lambda i, word, _: word[0:4] if i == 0 else ""),
+        "camel": (
             True,
             lambda i, word, _: word if i == 0 else word.capitalize(),
         ),
         "pathway": (True, lambda i, word, _: word if i == 0 else "/" + word),
         "dotsway": (True, lambda i, word, _: word if i == 0 else "." + word),
         "yellsmash": (True, lambda i, word, _: word.upper()),
-        "(allcaps | yeller)": (False, lambda i, word, _: word.upper()),
+        "yeller": (False, lambda i, word, _: word.upper()),
         "yellsnik": (
             True,
             lambda i, word, _: word.upper() if i == 0 else "_" + word.upper(),
