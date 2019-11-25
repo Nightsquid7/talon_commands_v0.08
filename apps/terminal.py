@@ -104,6 +104,7 @@ keymap = {
     "open unity": "open -a Unity",
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1/*.pdf",
     "open combine project": ["open -a Xcode /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1/0"],
+    "open combine folder": ["open -a Finder /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1", Key("enter")],
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
