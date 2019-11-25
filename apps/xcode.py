@@ -82,6 +82,8 @@ ctx.keymap(
         ".sync": ".sink(",
         ".sync full": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
                 Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
+        ".store": ".store(in: &subscriptions)",
+        "pass through subject": "PassthroughSubject<",
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "refresh preview": Key("cmd-alt-p"),
