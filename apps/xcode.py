@@ -84,6 +84,7 @@ ctx.keymap(
                 Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
         ".store": ".store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
+        "(4 e | 4 each)": ".forEach(",
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "refresh preview": Key("cmd-alt-p"),
