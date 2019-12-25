@@ -9,26 +9,26 @@ ctx = Context("general_lang")
 ctx.keymap(
     {
         # Operators
-        "(op equals | assign | equeft)": " = ",
-        "(op (minus | subtract) | deminus)": " - ",
-        "(op (plus | add) | deplush)": " + ",
-        "(op (times | multiply) | duster)": " * ",
+        "(op equals)": " = ",
+        "(op (minus | subtract))": " - ",
+        "(op (plus | add))": " + ",
+        "(op (times | multiply))": " * ",
         "(op divide)": " / ",
         "op mod": " % ",
-        "((op minus | subtract) equals | minus assign)": " -= ",
+        "((op minus | subtract) equals)": " -= ",
         "((op plus | add) equals | (plus | add) assign)": " += ",
         "([op] (times | multiply) (assign | equals) | star assign)": " *= ",
         "[op] divide (assign | equals)": " /= ",
         "[op] mod (assign | equals)": " %= ",
-        "(op colon (equals | assign) | coleek)": " := ",
+        "(op colon (equals | assign))": " := ",
         "(op | is) greater [than]": " > ",
         "(op | is) less [than]": " < ",
-        "((op | is) equal [to] | longqual)": " == ",
-        "((op | is) not equal [to] | banquall)": " != ",
-        "((op | is) greater [than] or equal [to] | grayqual)": " >= ",
-        "((op | is) less [than] or equal [to] | lessqual)": " <= ",
+        "((op | is) equal [to])": " == ",
+        "((op | is) not equal [to])": " != ",
+        "((op | is) greater [than] or equal [to])": " >= ",
+        "((op | is) less [than] or equal [to])": " <= ",
         "([(op | is)] exactly (equal [to] | equals))": " === ",
-        "([(op | is)] not exactly (equal [to] | equals) | ranqual | nockle)": " !== ",
+        "([(op | is)] not exactly (equal [to] | equals))": " !== ",
         "(op (power | exponent) | to the power [of])": " ** ",
         "op and": " && ",
         "op or": " || ",
@@ -69,7 +69,7 @@ ctx.keymap(
         "state switch": ["switch ()", Key("left")],
         #"state case": ["case \nbreak;", Key("up")],
         # Swift
-        "state var": "var ",
+        
         "state let": "let ",
         "state if let": "if let ",
 
@@ -84,11 +84,21 @@ ctx.keymap(
         "tip double": "Double ",
         "tip string": "String",
         "miller": "nil",
+        "cd float": "CGFloat ",
+        "cd point": ["CGPoint(x: , y:)", Key("alt-left"), Key("left"), Key("left")],
+        "ui image": "UIImage(",
+
         # Comments
         "comment see": "// ",
         "comment py": "# ",
         # custom
         "get checkmark": "- [ ] ",
-        "js print": ["console.log()", Key("left")]
+        # JS
+        "a single function": "async function",
+        "js print": ["console.log()", Key("left")],
+
+        #random/temp
+        "superscript" : [Key("ctrl-cmd-+")]
+
     }
 )

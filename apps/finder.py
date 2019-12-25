@@ -76,6 +76,9 @@ ctx.keymap(
         "downloads": Key("cmd-shift-l"),
         "applications": Key("cmd-shift-a"),
         "developer": go_to_path("~/Developer"),
+        # Personal folders
+        "personal projects folder": go_to_path("/Users/stevenberkowitz/Development/Nightsquid Personal Projects"),
+        "audio kit folder": go_to_path("/Users/stevenberkowitz/Development/AudioKit-iOS"),
         "fsu folder": go_to_path("/Users/stevenberkowitz/Documents/FSU Computer Science/Fall 2019"),
         "gugrit folder": go_to_path("/Users/stevenberkowitz/Development/gugrit"),
         "talon": go_to_path("~/.talon/user"),

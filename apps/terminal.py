@@ -151,22 +151,23 @@ keymap = {
     "mark end": Key("ctrl-w"),
     "save and run": [Key("ctrl-x"), Key("ctrl-s"), Key("cmd-`"), "run", Key("enter")],
     # C Commands
-    "see print": ["printf();", Key("left"),Key("left")],
+    #"see print": ["printf();", Key("left"),Key("left")],
+    "see print": ["printf(\"\\n\");", Key("left"),Key("left"),Key("left")],
     "see scan": ["sscanf(,)"],
     # fsu Comp Sci
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
     #"run": ["run", Key("enter")],
-    "make": ["make ", Key("enter")],
-    "run test": ["runTest", Key("enter")],
+    "make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
+    "check last": ["echo $?", Key("enter")],
+    "run test": ["runTest", Key("enter")],      
     "open asm template": ["emacs assem-template.c", Key("enter")],
     "type password": ["Sug7&77z",Key("enter")],
     "make directory" : "mkdir ",
 
     # cda assignment3
-    "simulate": ["sim.exe", Key("enter")],
-    "state union": "insts[index].u.",
-    "state address": "*addressOf(",
-    "sym .exe": "sim.exe sim.exe mysum.obj < inputTestSum",
+    "assignment6": ["cd ~/cda3101/assignment6/; la",Key("enter")],
+    "open data cash": ["e datacache.cpp ",Key("enter")],
+    "run it": ["datacache.x ", Key("enter")],
     #
     "print working directory": ["pwd ", Key("enter")],
     "shell home": "~/",

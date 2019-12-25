@@ -79,6 +79,12 @@ ctx.keymap(
         "((partial | sub) [word] right | wonkrish)": Key("alt-ctrl-right"),
 
         # SwiftUI/Combine
+        "variable": "var ",
+        "geometry reader": "GeometryReader { g in \n\n",
+        "state variable": "@State var ",
+        "binding variable": "@Binding var ",
+        "environment variable": "@EnvironmentObject var",
+        "published variable": "@Published var",
         ".sync": ".sink(",
         ".sync full": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
                 Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
