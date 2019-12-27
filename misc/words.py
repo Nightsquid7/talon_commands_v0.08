@@ -23,7 +23,8 @@ ctx.keymap(
         "onyx": "o",
         "shift onyx": "O",
         "word error": "error",
-        "word with": "width"
-
+        "word with": "width",
+        "midi": "midi",
+        "yeller midi": "MIDI"
     }
 )

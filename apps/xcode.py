@@ -88,7 +88,7 @@ ctx.keymap(
         ".sync": ".sink(",
         ".sync full": [".sink(",Key("enter"),Key("tab"),"receiveCompletion: ",
                 Key("enter"),Key("tab"),"receiveValue: ",Key("up"),Key("cmd-right"),Key("right")],
-        ".store": ".store(in: &subscriptions)",
+        ".store": ".store(in: &disposables)",
         "print sync in store": ".sink(receiveValue: { print($0) })\n.store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
         "(4 e | 4 each)": ".forEach",

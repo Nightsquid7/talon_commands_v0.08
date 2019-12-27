@@ -87,6 +87,7 @@ ctx.keymap(
         "cd float": "CGFloat ",
         "cd point": ["CGPoint(x: , y:)", Key("alt-left"), Key("left"), Key("left")],
         "ui image": "UIImage(",
+        "as string any": " as? [String: Any]",
 
         # Comments
         "comment see": "// ",
