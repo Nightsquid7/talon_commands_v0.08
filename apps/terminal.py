@@ -97,7 +97,8 @@ def new_server(m):
 
 keymap = {
     # Personal keys 
-    "gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    #"gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    "nightsquid projects": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
     "cem group project": ["cd /Users/stevenberkowitz/Documents/FSU\ Computer\ Science/Fall\ 2019/CEN4020/CEN-4020-Group-Project/Gungeon/Gungeon; ls -la", Key("enter")],
