@@ -210,12 +210,12 @@ ctx.keymap(
         "paste": Key("cmd-v"),
         "(clip paste preserve formatting | match spark)": Key("cmd-shift-alt-v"),
         # motions
-        "2 jeep": [Key("up")] * 2,
-        "3 jeep": [Key("up")] * 3,
-        "4 jeep": [Key("up")] * 4,
-        "2 dune": [Key("down")] * 2,
-        "3 dune": [Key("down")] * 3,
-        "4 dune": [Key("down")] * 4,
+        "double jeep": [Key("up")] * 2,
+        "triple jeep": [Key("up")] * 3,
+        "quadruple jeep": [Key("up")] * 4,
+        "double dune": [Key("down")] * 2,
+        "triple doing": [Key("down")] * 3,
+        "quadruple doing": [Key("down")] * 4,
         "fish": Key("alt-right"),
         "2 fish": [Key("alt-right")] * 2,
         "3 fish": [Key("alt-right")] * 3,
@@ -236,6 +236,7 @@ ctx.keymap(
             "ctrl-a cmd-left shift-down cmd-c down cmd-v"
         ),
         # deleting         
+        "double junk": [Key("doubleJunk")] * 2,
         "triple junk": [Key("backspace")] * 3,
         "(delete around this | slurp)": Key("backspace delete"),
         "(delete line left | snip left)": Key("shift-cmd-left delete"),
