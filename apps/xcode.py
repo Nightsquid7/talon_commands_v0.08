@@ -78,6 +78,12 @@ ctx.keymap(
         "((partial | sub) [word] left | wonkrim)": Key("alt-ctrl-left"),
         "((partial | sub) [word] right | wonkrish)": Key("alt-ctrl-right"),
 
+        # import statements
+        "import audiokit":  "import AudioKit",
+        "import combined": "import Combine",
+        "import scene kit": "import SceneKit",
+
+
         # SwiftUI/Combine
         "variable": "var ",
         "geometry reader": "GeometryReader { g in \n\n",

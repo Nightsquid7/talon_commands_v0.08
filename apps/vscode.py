@@ -58,6 +58,9 @@ context.keymap(
         # Editing Talon
         "key it": ["Key(\"\")", Key("left"),Key("left")],
         "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
+        
+        # add AudioKit
+        "add audio kit": ["pod \'AudioKit\', \'4.9\'"],
 
         # Selecting text
         "select line"

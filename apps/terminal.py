@@ -165,12 +165,15 @@ keymap = {
     "type password": ["Sug7&77z",Key("enter")],
     "make directory" : "mkdir ",
 
-    # cda assignment3
-    "assignment6": ["cd ~/cda3101/assignment6/; la",Key("enter")],
-    "open data cash": ["e datacache.cpp ",Key("enter")],
-    "run it": ["datacache.x ", Key("enter")],
+    # add pod to xCode
+    "part in it": ["pod init", Key("enter")],
+    "code part file": ["code Podfile", Key("enter")],
+    "part install": ["pod install", Key("enter")],
+
     #
     "print working directory": ["pwd ", Key("enter")],
+    
+    #
     "shell home": "~/",
     "lefty": Key("ctrl-a"),
     "ricky": Key("ctrl-e"),
