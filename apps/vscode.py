@@ -57,7 +57,8 @@ context.keymap(
     {
         # Editing Talon
         "key it": ["Key(\"\")", Key("left"),Key("left")],
-        
+        "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
+
         # Selecting text
         "select line"
         + optional_numerals
