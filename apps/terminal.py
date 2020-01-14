@@ -97,28 +97,34 @@ def new_server(m):
 
 keymap = {
     # Personal keys 
-    #"gugrit": ["gugrit", Key("enter"), "ll ", Key("enter")],
+    # Navigation
+    # # Folders
     "nightsquid projects": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
-    "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
-    "cem group project": ["cd /Users/stevenberkowitz/Documents/FSU\ Computer\ Science/Fall\ 2019/CEN4020/CEN-4020-Group-Project/Gungeon/Gungeon; ls -la", Key("enter")],
-    "open unity": "open -a Unity",
-    "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1/*.pdf",
-    "open combine project": ["open -a Xcode /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1/0"],
-    "open combine folder": ["open -a Finder /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.1", Key("enter")],
+    "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\ /MIDI; ls", Key("enter")],
+    #
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
+
+    # Utility
+    "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
+    "open unity": "open -a Unity",
+
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
-    "plex beta": ["xbeta ", Key("enter")],
-    "open workspace": ["open -a 'Xcode.app' *space ", Key("enter")],
+
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")],
     # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],
+
+    # combine
+    "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
+    "open combine project": ["open -a Xcode /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/0"],
+    "open combine folder": ["open -a Finder /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2", Key("enter")],
     
     # git
     "git pull": "g pull",
@@ -155,8 +161,11 @@ keymap = {
     #"see print": ["printf();", Key("left"),Key("left")],
     "see print": ["printf(\"\\n\");", Key("left"),Key("left"),Key("left")],
     "see scan": ["sscanf(,)"],
+    
     # fsu Comp Sci
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
+    "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
+    
     #"run": ["run", Key("enter")],
     "make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
     "check last": ["echo $?", Key("enter")],
@@ -165,11 +174,14 @@ keymap = {
     "type password": ["Sug7&77z",Key("enter")],
     "make directory" : "mkdir ",
 
+    # iOS
+    "open workspace": ["open -a 'Xcode.app' *space ", Key("enter")],
     # add pod to xCode
     "part in it": ["pod init", Key("enter")],
     "code part file": ["code Podfile", Key("enter")],
     "part install": ["pod install", Key("enter")],
-
+    # .git
+    "add xcode get ignore": ["cp /Users/stevenberkowitz/Development/scripting/default\ files/.gitignore ."],
     #
     "print working directory": ["pwd ", Key("enter")],
     

@@ -82,6 +82,9 @@ ctx.keymap(
         "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/FSU Computer Science/Spring 2020"), Key("cmd-down")],
         "gugrit folder": go_to_path("/Users/stevenberkowitz/Development/gugrit"),
         "talon": go_to_path("~/.talon/user"),
+        
+        "midi folder": go_to_path("/Users/stevenberkowitz/Documents/Music /MIDI"),
+
         # NOT WORKING "(delete | empty) trash": Key("cmd-shift-del"),
         "spotlight [menu]": Key("cmd-space"),
         "spotlight window": Key("cmd-alt-space"),

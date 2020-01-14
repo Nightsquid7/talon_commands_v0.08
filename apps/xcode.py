@@ -97,10 +97,12 @@ ctx.keymap(
         ".store": ".store(in: &disposables)",
         "print sync in store": ".sink(receiveValue: { print($0) })\n.store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
-        "(4 e | 4 each)": ".forEach",
+        "refresh preview": Key("cmd-alt-p"),
+        "swift (4 e | 4 each | 4e)": ".forEach",
+        # Containers
+        "fore | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
-        "refresh preview": Key("cmd-alt-p"),
         "spacer": ["Spacer()", Key("cmd-left"), Key("tab")],
         "make button": ["""Button(action:  {
 

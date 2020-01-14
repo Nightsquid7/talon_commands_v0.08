@@ -60,7 +60,7 @@ context.keymap(
         "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
         
         # add AudioKit
-        "add audio kit": ["pod \'AudioKit\', \'4.9\'"],
+        "add audiokit": ["pod \'AudioKit\', \'4.9\'"],
 
         # Selecting text
         "select line"
