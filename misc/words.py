@@ -25,6 +25,7 @@ ctx.keymap(
         "word error": "error",
         "word with": "width",
         "midi": "midi",
-        "yeller midi": "MIDI"
+        "yeller midi": "MIDI",
+        #"word [": "Square",
     }
 )

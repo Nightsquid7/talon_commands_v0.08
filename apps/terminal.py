@@ -101,6 +101,7 @@ keymap = {
     # # Folders
     "nightsquid projects": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
+    "midi visualizer folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/music_projects/MIDI\ Visualizers",Key("enter")],
     "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\ /MIDI; ls", Key("enter")],
     #
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
@@ -181,7 +182,7 @@ keymap = {
     "code part file": ["code Podfile", Key("enter")],
     "part install": ["pod install", Key("enter")],
     # .git
-    "add xcode get ignore": ["cp /Users/stevenberkowitz/Development/scripting/default\ files/.gitignore ."],
+    "add get ignore": ["cp /Users/stevenberkowitz/Development/scripting/default\ files/.gitignore ."],
     #
     "print working directory": ["pwd ", Key("enter")],
     

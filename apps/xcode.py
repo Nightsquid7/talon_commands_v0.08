@@ -52,9 +52,14 @@ ctx.keymap(
         "quick open": Key("cmd-shift-o"),
         "comm skoosh": "// ",
         # mycommands
+
+
+
+        # editor
         "comment line": Key("cmd-/"),
         "print": ["print()", Key("left")],
         "print string": ["\()", Key("left")],
+        "print copy": ["print(\"\\(", Key("cmd-v"),")"],
         "complete paren": ["(", Key("escape")],
         "state function": "func ",
         "state in it": "init()",
@@ -82,8 +87,18 @@ ctx.keymap(
         "import audiokit":  "import AudioKit",
         "import combined": "import Combine",
         "import scene kit": "import SceneKit",
+        "import spray kit": "import SpriteKit",
+        "import gameplayc": "important GameplayKit",
 
+        # General swift?
+        ".annette": ".init(",
+        "wrecked": "rect",
 
+        # scene kit
+        "SK shape node": "SKShapeNode",
+
+        # AudioKit
+        "midi note number": "MIDINoteNumber",
         # SwiftUI/Combine
         "variable": "var ",
         "geometry reader": "GeometryReader { g in \n\n",
@@ -100,7 +115,7 @@ ctx.keymap(
         "refresh preview": Key("cmd-alt-p"),
         "swift (4 e | 4 each | 4e)": ".forEach",
         # Containers
-        "fore | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
+        "for e | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "spacer": ["Spacer()", Key("cmd-left"), Key("tab")],
