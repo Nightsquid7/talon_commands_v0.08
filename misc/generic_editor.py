@@ -272,5 +272,10 @@ ctx.keymap(
         "([(select | sell)] word right)": Key("alt-shift-right"),
         "([(select | sell)] line left)": Key("cmd-shift-left"),
         "([(select | sell)] line right)": Key("cmd-shift-right"),
+
+        # utility
+        "type address": "stevenaaronberkowitz@gmail.com",
+
+
     }
 )

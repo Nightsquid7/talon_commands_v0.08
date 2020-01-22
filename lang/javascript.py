@@ -34,7 +34,7 @@ context.keymap(
         "let [<dgndictation>]": ["let ", text],
         "static": "static ",
         "args": ["()", Key("left")],
-        "index": ["[]", Key("left")],
+        #"index": ["[]", Key("left")],
         "block": [" {}", Key("left enter enter up tab")],
         "empty array": "[]",
         "empty object": "{}",

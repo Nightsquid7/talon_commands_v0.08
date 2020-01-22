@@ -93,7 +93,8 @@ ctx.keymap(
         # General swift?
         ".annette": ".init(",
         "wrecked": "rect",
-
+        "dispatch Q a sync": "DispatchQueue.main.async {",
+        "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         # scene kit
         "SK shape node": "SKShapeNode",
 

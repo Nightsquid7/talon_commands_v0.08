@@ -40,7 +40,7 @@ formatters = normalise_keys(
             True,
             lambda i, word, _: word.upper() if i == 0 else "_" + word.upper(),
         ),
-        "dollcram": (
+        "dollerCase": (
             True,
             lambda i, word, _: "$" + word if i == 0 else word.capitalize(),
         ),
