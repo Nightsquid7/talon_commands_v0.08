@@ -62,6 +62,10 @@ context.keymap(
         # add AudioKit
         "add audiokit": ["pod \'AudioKit\', \'4.9\'"],
 
+        # Applescript
+        "and if": "end if",
+        "and tell": "end tell",
+
         # Selecting text
         "select line"
         + optional_numerals

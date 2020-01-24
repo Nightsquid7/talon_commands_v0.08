@@ -118,6 +118,8 @@ keymap = {
 
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")],
+    #  AppleScripts
+    "add chrome url to to read": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
     # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],
