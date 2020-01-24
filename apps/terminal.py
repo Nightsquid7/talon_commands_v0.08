@@ -167,6 +167,12 @@ keymap = {
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
+    # operating systems
+    "exit shell": ["exit", Key("enter")],
+    "type a list": ["ls -l", Key("enter")],
+    "type semi list": ["ls -l;", Key("enter")],
+
+
     #"run": ["run", Key("enter")],
     "make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
     "check last": ["echo $?", Key("enter")],
