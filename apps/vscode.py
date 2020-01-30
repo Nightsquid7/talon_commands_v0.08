@@ -66,6 +66,13 @@ context.keymap(
         "and if": "end if",
         "and tell": "end tell",
 
+        # C programming
+        "see print": ["printf(\"\");", Key("left")],
+
+        # FSU class Temp
+        "set lexington explained": "setLexemeFixedLength(lexeme, 1);",
+
+
         # Selecting text
         "select line"
         + optional_numerals
