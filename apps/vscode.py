@@ -79,7 +79,7 @@ context.keymap(
         + "until"
         + optional_numerals: select_lines_function,
         # Finding text
-        "find": Key("cmd-f"),
+        "search": Key("cmd-f"),
         "find next <dgndictation>": jump_to_next_word_instance,
         # Clipboard
         "clone": Key("alt-shift-down"),
@@ -89,11 +89,11 @@ context.keymap(
         "line up" + optional_numerals: repeat_function(2, "alt-up"),
         "line down" + optional_numerals: repeat_function(2, "alt-down"),
         # Navigating Interface
-        "explore tab": Key("shift-cmd-e"),
-        "search tab": Key("shift-cmd-f"),
-        "debug tab": Key("shift-cmd-d"),
+        #"explore tab": Key("shift-cmd-e"),
+        #"search tab": Key("shift-cmd-f"),
+        #"debug tab": Key("shift-cmd-d"),
         "source control tab": Key("shift-ctrl-g"),
-        "extensions tab": Key("shift-cmd-x"),
+        #"extensions tab": Key("shift-cmd-x"),
         "go to file <dgndictation>": [Key("cmd-p"), text],
         "master": Key("cmd-p"),
         # tabbing

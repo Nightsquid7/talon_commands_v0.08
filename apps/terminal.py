@@ -207,7 +207,7 @@ keymap = {
     "talon reple": "~/.talon/bin/repl",
     "talon home": ["cd ~/.talon/user/talon_community/", Key("enter"), "ll ", Key("enter")],
     "open talon commands": ["code ~/.talon/user/talon_community/ ", Key("enter")],
-    "reverse": Key("ctrl-r"),
+    #"reverse": Key("ctrl-r"),
     "rerun": [Key("up"), Key("enter")],
     "cd": ["cd ; ls", Key("left"), Key("left"), Key("left"), Key("left")],
     "cd wild": [
