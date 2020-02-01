@@ -92,11 +92,17 @@ ctx.keymap(
         # Comments
         "comment see": "// ",
         "comment py": "# ",
+        
         # custom
         "get checkmark": "- [ ] ",
+
         # JS
         "a single function": "async function",
         "js print": ["console.log()", Key("left")],
+
+        # Go
+        "go print": "fmt.Print",
+
 
         #random/temp
         "superscript" : [Key("ctrl-cmd-+")]
