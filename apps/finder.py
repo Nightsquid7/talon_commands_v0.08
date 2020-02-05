@@ -76,12 +76,13 @@ ctx.keymap(
         "downloads": Key("cmd-shift-l"),
         "applications": Key("cmd-shift-a"),
         "developer": go_to_path("~/Developer"),
-        # Personal folders
+        # Navigation Personal folders
         "personal projects folder": go_to_path("/Users/stevenberkowitz/Development/Nightsquid Personal Projects"),
         "audio kit folder": go_to_path("/Users/stevenberkowitz/Development/AudioKit-iOS"),
         "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/FSU Computer Science/Spring 2020"), Key("cmd-down")],
         "gugrit folder": go_to_path("/Users/stevenberkowitz/Development/gugrit"),
         "talon": go_to_path("~/.talon/user"),
+        "ergo dogs": go_to_path("/Users/stevenberkowitz/Development/Hands Free/Ergodox"),
         
         "midi folder": go_to_path("/Users/stevenberkowitz/Documents/Music /MIDI"),
 
