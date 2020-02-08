@@ -112,6 +112,7 @@ keymap = {
 
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
+    "new terminal tab": [Key("ctrl-1"),Key("right"), Key("right"), Key("down"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down")],
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
@@ -123,6 +124,7 @@ keymap = {
     # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],
+    "echo path": ["echo $PATH", Key("enter")],
 
     # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",

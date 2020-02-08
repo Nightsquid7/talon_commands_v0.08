@@ -44,8 +44,7 @@ symbols = normalise_keys(
         "(semicolon | semi)": ";",
         "(quote)": "'",
         "(square | L square | left square)": "[",
-        "(are square | R square | right square)": "]",
-        
+        "(are square | right square)": "]",
         "(slash | forward slash)": "/",
         "backslash": "\\",
         "(minus | dash)": "-",

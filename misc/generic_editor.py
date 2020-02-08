@@ -277,6 +277,7 @@ ctx.keymap(
         # utility
         "type address": "stevenaaronberkowitz@gmail.com",
 
+        "disable switzerland": "// swiftlint:disable ",
 
     }
 )
