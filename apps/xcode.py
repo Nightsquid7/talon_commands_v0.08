@@ -100,6 +100,8 @@ ctx.keymap(
 
         # AudioKit
         "midi note number": "MIDINoteNumber",
+        "ak mixer": "AKMixer",
+        "ak table": "AKTable",
         # SwiftUI/Combine
         "variable": "var ",
         "geometry reader": "GeometryReader { g in \n\n",
