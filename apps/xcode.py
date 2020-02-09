@@ -97,6 +97,7 @@ ctx.keymap(
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
+        "variable": "var ",
         # scene kit
         "SK shape node": "SKShapeNode",
 
@@ -105,7 +106,7 @@ ctx.keymap(
         "ak mixer": "AKMixer",
         "ak table": "AKTable",
         # SwiftUI/Combine
-        "variable": "var ",
+        ".frame": [".frame(width: , height: )",Key("alt-left"), Key("left"), Key("left")],
         "geometry reader": "GeometryReader { g in \n\n",
         "state variable": "@State var ",
         "binding variable": "@Binding var ",
@@ -118,9 +119,9 @@ ctx.keymap(
         "print sync in store": ".sink(receiveValue: { print($0) })\n.store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
         "refresh preview": Key("cmd-alt-p"),
-        "swift (4 e | 4 each | 4e)": ".forEach",
+        #"swift (4 e | 4 each | 4e)": ".forEach",
         # Containers
-        "for e | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
+        #"for e | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "spacer": ["Spacer()", Key("cmd-left"), Key("tab")],
