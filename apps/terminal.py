@@ -103,24 +103,28 @@ keymap = {
     "fsu folder": ["fsu", Key("enter")],
     "midi visualizer folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/music_projects/MIDI\ Visualizers",Key("enter")],
     "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\ /MIDI; ls", Key("enter")],
+    "scripting": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
     #
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
 
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
-    "open unity": "open -a Unity",
-
+    "zip show config": ["zshrc", Key("enter")],
+    "finder": ["open -a finder .", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
     "new terminal tab": [Key("ctrl-1"),Key("right"), Key("right"), Key("down"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down")],
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
+    "open unity": "open -a Unity",
 
     "yes": ["y", Key("enter")],
-    "no": ["n", Key("enter")],
+    "no": ["n", Key("enter")], 
+
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
+    "input sleep data": ["osascript /Users/stevenberkowitz/Development/scripting/inputSleepData.applescript", Key("enter")],
     # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],

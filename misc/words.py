@@ -28,7 +28,8 @@ ctx.keymap(
         "yeller midi": "MIDI",
         "word line": "line",
         "swift went": "swiftlint",
-        "word send": "synth"
+        "word send": "synth",
+        "osa script": "osascript ",
         #"word [": "Square",
     }
 )
