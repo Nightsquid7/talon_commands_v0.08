@@ -95,6 +95,8 @@ ctx.keymap(
         "wrecked": "rect",
         "dispatch Q a sync": "DispatchQueue.main.async {",
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
+        "dot 4 each": ".forEach",
+        "swiftui 4 each": "ForEach", 
         # scene kit
         "SK shape node": "SKShapeNode",
 
