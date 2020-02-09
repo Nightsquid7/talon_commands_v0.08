@@ -106,7 +106,7 @@ keymap = {
     "scripting": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
     #
     "go to shell home": ["cd ~/ ; ls ", Key("enter")],
-
+    #
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
     "zip show config": ["zshrc", Key("enter")],
@@ -117,8 +117,9 @@ keymap = {
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
+        # open apps/files
     "open unity": "open -a Unity",
-
+    "openswiftlint": ["code .swiftlint.yml", Key("enter")],
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")], 
 
@@ -130,7 +131,7 @@ keymap = {
     "grep talon": ["grep   */*"],
     "echo path": ["echo $PATH", Key("enter")],
 
-    # combine
+            # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
     "open combine project": ["open -a Xcode /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/0"],
     "open combine folder": ["open -a Finder /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2", Key("enter")],
