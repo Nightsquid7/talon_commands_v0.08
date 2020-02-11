@@ -43,10 +43,8 @@ ctx.keymap(
         "go to line": Key("cmd-l"),
         "line end": [Key("down"), Key("up"),Key("cmd-right")],
         "editor": [Key("cmd-j"),Key("enter")],
-
         "move line up": Key("cmd-alt-["),
         "move line down": Key("cmd-alt-]"),
-
         "go (deafen | definition)": Key("cmd-ctrl-j"),
         "edit scheme": Key("cmd-shift-,"),
         "quick open": Key("cmd-shift-o"),
@@ -105,7 +103,7 @@ ctx.keymap(
         "midi note number": "MIDINoteNumber",
         "ak mixer": "AKMixer",
         "ak table": "AKTable",
-        "ak oscillator!": "AKOscillatorBank",
+        "ak oscillator !": "AKOscillatorBank",
         # SwiftUI/Combine
         ".frame": [".frame(width: , height: )",Key("alt-left"), Key("left"), Key("left")],
         "geometry reader": "GeometryReader { g in \n\n",
@@ -120,19 +118,13 @@ ctx.keymap(
         "print sync in store": ".sink(receiveValue: { print($0) })\n.store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
         "refresh preview": Key("cmd-alt-p"),
-        #"swift (4 e | 4 each | 4e)": ".forEach",
+        
         # Containers
-        #"for e | 4e": ["ForEach(, id: \.self) { _ in ",Key("enter")],
+        
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
-        "spacer": ["Spacer()", Key("cmd-left"), Key("tab")],
-        "make button": ["""Button(action:  {
+        "spacer": ["Spacer()"],
 
-
-                }, label:  {
-                    Text("")
-
-                 """]
 
     }
 )
