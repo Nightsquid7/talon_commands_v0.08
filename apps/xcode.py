@@ -105,6 +105,7 @@ ctx.keymap(
         "midi note number": "MIDINoteNumber",
         "ak mixer": "AKMixer",
         "ak table": "AKTable",
+        "ak oscillator!": "AKOscillatorBank",
         # SwiftUI/Combine
         ".frame": [".frame(width: , height: )",Key("alt-left"), Key("left"), Key("left")],
         "geometry reader": "GeometryReader { g in \n\n",

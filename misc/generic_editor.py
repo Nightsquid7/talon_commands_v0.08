@@ -248,8 +248,8 @@ ctx.keymap(
         # selecting
         "find right <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="right"),
         "(select | sell) (crew | find right) <dgndictation> [over]": lambda m: select_text_to_right_of_cursor(m, cursorKey="shift-right"),
-        "(trail | find left) <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="left"),
-        "(select | sell) (trail | find left) <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="shift-left"),
+        "find left <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="left"),
+        "(select | sell) (find left) <dgndictation> [over]": lambda m: select_text_to_left_of_cursor(m, cursorKey="shift-left"),
         "(find on line) <dgndictation> [over]": select_text_on_same_line,
         "((select | sell) this word | word this)": Key("alt-right shift-alt-left"),
         "((select | sell) this line | shackle)": Key("cmd-right shift-cmd-left"),

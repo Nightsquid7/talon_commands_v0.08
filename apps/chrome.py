@@ -155,14 +155,13 @@ context.keymap(
         # go to websites 
         # [focus_address_bar, "", Key("enter")],
         "fsu canvas": [focus_address_bar, "https://canvas.fsu.edu/login?needs_cookies=1", Key("enter")],
-        "github": [focus_address_bar, "https://github.com", Key("enter")],
-        "gugrit ":  [focus_address_bar, "https://github.com/TonnyXu/gugrit-its", Key("enter")],
+        "x github": [focus_address_bar, "https://github.com", Key("enter")],
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
-        
+        "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
         
         #
         "(address bar | focus address | focus url | url)": focus_address_bar,

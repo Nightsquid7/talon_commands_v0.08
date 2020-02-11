@@ -30,6 +30,7 @@ ctx.keymap(
         "swift went": "swiftlint",
         "word send": "synth",
         "osa script": "osascript ",
-        #"word [": "Square",
+        "ads are": "ADSR",
+    
     }
 )

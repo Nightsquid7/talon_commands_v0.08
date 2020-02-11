@@ -80,10 +80,10 @@ ctx.keymap(
         "personal projects folder": go_to_path("/Users/stevenberkowitz/Development/Nightsquid Personal Projects"),
         "audio kit folder": go_to_path("/Users/stevenberkowitz/Development/AudioKit-iOS"),
         "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/FSU Computer Science/Spring 2020"), Key("cmd-down")],
-        "gugrit folder": go_to_path("/Users/stevenberkowitz/Development/gugrit"),
+        "programming languages": go_to_path("~/Documents/FSU Computer Science/Spring 2020/COP4020 Programming Languages/"),
+        "operating systems": go_to_path("~/Documents/FSU Computer Science/Spring 2020/COP4610 Operating Systems"),
         "talon": go_to_path("~/.talon/user"),
         "ergo dogs": go_to_path("/Users/stevenberkowitz/Development/Hands Free/Ergodox"),
-        
         "midi folder": go_to_path("/Users/stevenberkowitz/Documents/Music /MIDI"),
 
         # NOT WORKING "(delete | empty) trash": Key("cmd-shift-del"),
