@@ -104,8 +104,9 @@ ctx.keymap(
         "ak mixer": "AKMixer",
         "ak table": "AKTable",
         "ak oscillator !": "AKOscillatorBank",
+        "ak delay": "AKDelay",
         # SwiftUI/Combine
-        ".frame": [".frame(width: , height: )",Key("alt-left"), Key("left"), Key("left")],
+        "swiftui .frame": [".frame(width: , height: )",Key("alt-left"), Key("left"), Key("left")],
         "geometry reader": "GeometryReader { g in \n\n",
         "state variable": "@State var ",
         "binding variable": "@Binding var ",

@@ -18,7 +18,7 @@ keymap = {
     "(angle | left angle | less than)": "<",
     "(rangle | are angle | right angle | greater than)": ">",
     "(star | asterisk)": "*",
-    "(pound | hash [sign] | number sign)": "#",
+    "hash [sign]": "#",
     "percent [sign]": "%",
     "caret": "^",
     "at sign": "@",
