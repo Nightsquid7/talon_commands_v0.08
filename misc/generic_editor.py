@@ -205,7 +205,7 @@ ctx.keymap(
         "(undo it)": Key("cmd-z"),
         "(redo it)": Key("cmd-shift-z"),
         # Switch Keyboard
-        "switch keyboard": [Key("ctrl-cmd-space")],
+        "(stitch | switch keyboard)": [Key("ctrl-cmd-space")],
         # clipboard
         "snatch": Key("cmd-x"),
         "copy": Key("cmd-c"),
