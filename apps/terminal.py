@@ -126,10 +126,12 @@ keymap = {
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
     "input sleep data": ["osascript /Users/stevenberkowitz/Development/scripting/inputSleepData.applescript", Key("enter")],
+    
     # Unix
     "touch": "touch ",
     "grep talon": ["grep   */*"],
     "echo path": ["echo $PATH", Key("enter")],
+    "shell tree": ["tree", Key("enter")],
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
@@ -152,6 +154,7 @@ keymap = {
     #"git branch": "git branch ",
     "git diff": "g diff ",
     "git rebase": "g rebase -i ",
+
     # emacs
     "emacs safe": [Key("ctrl-x"), Key("ctrl-s")],
     "emacs quit": [Key("ctrl-x"), Key("ctrl-c")],
@@ -167,6 +170,20 @@ keymap = {
     "mark start": [Key("ctrl-space")],
     "mark end": Key("ctrl-w"),
     "save and run": [Key("ctrl-x"), Key("ctrl-s"), Key("cmd-`"), "run", Key("enter")],
+
+    "emacs split window": [Key("ctrl-x"), "2"],
+    # emacs - gdb
+    "emacs execute": [Key("ctrl-c"), Key("ctrl-c")],
+    "quick gdb": ["quit", Key("enter")],
+    "ddb": ["gdb", Key("enter")],
+    # for typing the continue in gdb
+    "continue": ["continue", Key("enter"), Key("ctrl-c"), Key("ctrl-c")],
+    "show breakpoints": ["i b ", Key("enter")],
+    # emacs - xv6
+    "quit xp6": [Key("ctrl-a"), "x"],
+
+
+
     # C Commands
     #"see print": ["printf();", Key("left"),Key("left")],
     "see print": ["printf(\"\\n\");", Key("left"),Key("left"),Key("left")],
@@ -177,6 +194,7 @@ keymap = {
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
     # operating systems
+    "obsess": ["opsys", Key("enter")],
     "exit shell": ["exit", Key("enter")],
     "type a list": ["ls -l", Key("enter")],
     "type semi list": ["ls -l;", Key("enter")],

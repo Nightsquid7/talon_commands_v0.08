@@ -27,10 +27,12 @@ ctx.keymap(
         "midi": "midi",
         "yeller midi": "MIDI",
         "word line": "line",
-        "swift went": "swiftlint",
+        "turtle line": "Line",
+        "swift went": "swiftlint ",
         "word send": "synth",
         "osa script": "osascript ",
         "ads are": "ADSR",
+        "word colonel": "kernel ",
     
     }
 )

@@ -26,51 +26,27 @@ def title_case_capitalize_word(index, word, _):
 
 formatters = normalise_keys(
     {
-        "tree": (True, lambda i, word, _: word[0:3] if i == 0 else ""),
-        #"quad": (True, lambda i, word, _: word[0:4] if i == 0 else ""),
         "camel": (
             True,
             lambda i, word, _: word if i == 0 else word.capitalize(),
         ),
-        "pathway": (True, lambda i, word, _: word if i == 0 else "/" + word),
-        "dotsway": (True, lambda i, word, _: word if i == 0 else "." + word),
         "yellsmash": (True, lambda i, word, _: word.upper()),
         "yeller": (False, lambda i, word, _: word.upper()),
-        "yellsnik": (
-            True,
-            lambda i, word, _: word.upper() if i == 0 else "_" + word.upper(),
-        ),
-        "dollerCase": (
-            True,
-            lambda i, word, _: "$" + word if i == 0 else word.capitalize(),
-        ),
-        #"champ": (True, lambda i, word, _: word.capitalize() if i == 0 else " " + word),
-        "lowcram": (
-            True,
-            lambda i, word, _: "@" + word if i == 0 else word.capitalize(),
-        ),
         "(criff | criffed)": (True, lambda i, word, _: word.capitalize()),
-        #"'tridal": (False, lambda i, word, _: word.capitalize()),
         "snake": (True, lambda i, word, _: word if i == 0 else "_" + word),
-        #"dotsnik": (True, lambda i, word, _: "." + word if i == 0 else "_" + word),
-        
         "dot": (True, lambda i, word, _: "." + word if i == 0 else word.capitalize()),
         "smash": (True, lambda i, word, _: word),
-        "(spine | kebab)": (True, lambda i, word, _: word if i == 0 else "-" + word),
+        "spine": (True, lambda i, word, _: word if i == 0 else "-" + word),
         "turtle": (False, title_case_capitalize_word),
     }
 )
 
 surrounders = normalise_keys(
     {
-        "(dubstring | coif)": (False, surround('"')),
-        "(surround string)": (False, surround("'")),
-        "(tics | glitch)": (False, surround("`")),
-        "padded": (False, surround(" ")),
-        # "dunder": (False, surround("__")),
+        "dubstring": (False, surround('"')),
         "angler": (False, surround("<", ">")),
         "brax": (False, surround("[", "]")),
-        "kirk": (False, surround("{", "}")),
+        #"kirk": (False, surround("{", "}")),
         "precoif": (False, surround('("', '")')),
         "(prex)": (False, surround("(", ")")),
     }
