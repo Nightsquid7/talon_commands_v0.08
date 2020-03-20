@@ -20,8 +20,6 @@ ctx.keymap(
         "word stephen": "Steven",
         "word enter": "enter",
         "word get": "git",
-        "onyx": "o",
-        "shift onyx": "O",
         "word error": "error",
         "word with": "width",
         "midi": "midi",
