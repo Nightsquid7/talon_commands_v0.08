@@ -118,11 +118,13 @@ keymap = {
     "node": "node ",
     "osc": ["osc", Key("enter")],
 
+    "yes": ["y", Key("enter")],
+    "no": ["n", Key("enter")], 
         # open apps/files
     "open unity": "open -a Unity",
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
-    "yes": ["y", Key("enter")],
-    "no": ["n", Key("enter")], 
+    "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
+    
 
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
