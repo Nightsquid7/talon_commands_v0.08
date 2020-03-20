@@ -4,7 +4,7 @@ from ..utils import normalise_keys, insert
 from ..config import config
 
 # Alphabet words are configurable in your config.json.  default is talon_alphabet_words:
-talon_alphabet_words = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip"
+talon_alphabet_words = "air bat cap drum each fine gust harp sit jury crunch look made near onyx pit quench red sun trap urge vest whale plex yank zip"
 # voicecode_alphabet_words: "arch brov char dell etch fomp goof hark ice jinx koop lug mowsh nerb ork pooch quosh rosh sun teak unks verge womp trex yang zooch"
 
 alpha_alt = config.get("alphabet_words", talon_alphabet_words).split()
