@@ -117,6 +117,8 @@ keymap = {
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
+    "code get ignore": ["code .gitignore", Key("enter")],
+
         # open apps/files
     "open unity": "open -a Unity",
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
