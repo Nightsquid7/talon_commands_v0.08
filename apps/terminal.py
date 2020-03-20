@@ -147,6 +147,7 @@ keymap = {
     "get push": "g push ",
     "add you": ["g add -u", Key("enter"), "sta", Key("enter")],
     "git add": "g add ",
+    "get show": ["git show", Key("enter")],
     "glow": ["glo ", Key("enter")],
     "git list files": ["g ls-files", Key("enter")],
     "git remove": "g rm ",
