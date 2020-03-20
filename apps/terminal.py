@@ -117,7 +117,6 @@ keymap = {
     "code": "code ",
     "node": "node ",
     "osc": ["osc", Key("enter")],
-    "code get ignore": ["code .gitignore", Key("enter")],
 
         # open apps/files
     "open unity": "open -a Unity",
@@ -141,7 +140,9 @@ keymap = {
     "open combine folder": ["open -a Finder /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2", Key("enter")],
     
     # git
-    "git pull": "g pull",
+    "code get ignore": ["code .gitignore", Key("enter")],
+    "get pole": "g pull ",
+    "get push": "g push ",
     "add you": ["g add -u", Key("enter"), "sta", Key("enter")],
     "git add": "g add ",
     "glow": ["glo ", Key("enter")],
@@ -153,8 +154,8 @@ keymap = {
     "checkout new branch": "g checkout -b ",
     "git branch": ["g branch ", Key("enter")],
     "git branch all": ["g branch -a", Key("enter")], 
-    #"git branch": "git branch ",
     "git diff": "g diff ",
+    "get diff stage": ["git diff --staged", Key("enter")],
     "git rebase": "g rebase -i ",
 
     # emacs
