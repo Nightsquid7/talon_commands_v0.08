@@ -87,6 +87,8 @@ ctx.keymap(
         "import scene kit": "import SceneKit",
         "import spray kit": "import SpriteKit",
         "import gameplayc": "important GameplayKit",
+        "importRxSwift": "import RxSwift",
+        "import rx cocoa": "import RxCocoa",
 
         # General swift?
         ".annette": ".init(",
@@ -96,6 +98,9 @@ ctx.keymap(
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         "variable": "var ",
+        "jason serialization": "JSONSerialization",
+        "jason decoder": "JSONDecoder()",
+
         # scene kit
         "SK shape node": "SKShapeNode",
 
@@ -119,6 +124,10 @@ ctx.keymap(
         "print sync in store": ".sink(receiveValue: { print($0) })\n.store(in: &subscriptions)",
         "pass through subject": "PassthroughSubject<",
         "refresh preview": Key("cmd-alt-p"),
+
+        # RxSwift/RxCocoa
+        "dispose bag": "let disposeBag = DisposeBag()",
+        ".disposedBy": ".disposed(by: disposeBag)",
         
         # Containers
         

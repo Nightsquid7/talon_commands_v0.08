@@ -34,7 +34,7 @@ ctx.keymap(
         "op or": " || ",
         "[op] (logical | bitwise) and": " & ",
         "([op] (logical | bitwise) or | (op | D) pipe)": " | ",
-        "[(op | logical | bitwise)] (ex | exclusive) or": " ^ ",
+        "[(op | logical | bitwise)] (ex | exclusive) or": " ^ ", 
         "(op | logical | bitwise) (left shift | shift left)": " << ",
         "(op | logical | bitwise) (right shift | shift right)": " >> ",
         "(op | logical | bitwise) and equals": " &= ",

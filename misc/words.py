@@ -31,7 +31,9 @@ ctx.keymap(
         "yeller midi": "MIDI",
         "ads are": "ADSR",
         "osa script": "osascript ",
-        "ios": "iOS"
-    
+        "ios": "iOS",
+        "arik swift": "RxSwift",
+        "rx cocoa": "RxCocoa",
+            
     }
 )
