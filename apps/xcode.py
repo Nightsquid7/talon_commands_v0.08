@@ -98,6 +98,8 @@ ctx.keymap(
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         "variable": "var ",
+        "genome": "enum ",
+        "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
 
