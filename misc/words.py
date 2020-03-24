@@ -25,10 +25,12 @@ ctx.keymap(
         "swift went": "swiftlint ",
         "word send": "synth ",
         "word colonel": "kernel ",
+        
+        "word (rome | well)": "realm",
+        "turtle (rome | well)": "Realm",
         "word line": "line",
-        "word rome": "realm ",
-
         "turtle line": "Line",
+        
         "midi": "midi",
         "yeller midi": "MIDI",
         "ads are": "ADSR",
