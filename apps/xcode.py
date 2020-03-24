@@ -98,11 +98,14 @@ ctx.keymap(
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         "variable": "var ",
-        "genome": "enum ",
+        "genome | tina": "enum ",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
 
+        # UIKit
+        "you ic": "UIKit",
+        "view controller": "ViewController",
         # scene kit
         "SK shape node": "SKShapeNode",
 
