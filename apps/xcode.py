@@ -89,6 +89,7 @@ ctx.keymap(
         "import gameplayc": "important GameplayKit",
         "importRxSwift": "import RxSwift",
         "import rx cocoa": "import RxCocoa",
+        "import ui kit": "import UIKit",
 
         # General swift?
         ".annette": ".init(",
@@ -102,10 +103,12 @@ ctx.keymap(
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
+        "else return": "else { return ",
 
         # UIKit
-        "you ic": "UIKit",
+       
         "view controller": "ViewController",
+        "ui | you are": "UI",
         # scene kit
         "SK shape node": "SKShapeNode",
 
