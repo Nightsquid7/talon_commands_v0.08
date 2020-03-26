@@ -89,17 +89,19 @@ ctx.keymap(
         "import gameplayc": "important GameplayKit",
         "importRxSwift": "import RxSwift",
         "import rx cocoa": "import RxCocoa",
+        "import realm | rome": "import RealmSwift",
         "import ui kit": "import UIKit",
 
         # General swift?
         ".annette": ".init(",
-        "wrecked": "rect",
+        "rectangle": "rect",
         "dispatch Q a sync": "DispatchQueue.main.async {",
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         "variable": "var ",
         "genome | tina": "enum ",
+        "(ns object | anna subject)": "NSObject",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
@@ -108,7 +110,7 @@ ctx.keymap(
         # UIKit
        
         "view controller": "ViewController",
-        "ui | you are": "UI",
+        #"ui | you are": "UI",
         # scene kit
         "SK shape node": "SKShapeNode",
 
@@ -136,6 +138,8 @@ ctx.keymap(
         # RxSwift/RxCocoa
         "dispose bag": "let disposeBag = DisposeBag()",
         ".disposedBy": ".disposed(by: disposeBag)",
+        ".subscribe": ".subscribe(onNext: { _ in ",
+        ".find": ".bind(to: ",
         
         # Containers
         

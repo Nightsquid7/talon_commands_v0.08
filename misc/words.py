@@ -30,7 +30,8 @@ ctx.keymap(
         "turtle (rome | well)": "Realm",
         "word line": "line",
         "turtle line": "Line",
-        
+
+        "any music": "AniMusic",        
         "midi": "midi",
         "yeller midi": "MIDI",
         "ads are": "ADSR",
