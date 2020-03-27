@@ -218,7 +218,7 @@ keymap = {
     "make directory" : "mkdir ",
 
     # iOS
-    "open workspace": ["open -a 'Xcode.app' *space ", Key("enter")],
+    "open workspace": ["open -a 'Xcode 11.1 11A1027' *space ", Key("enter")],
     # add pod to xCode
     "part in it": ["pod init", Key("enter")],
     "code part file": ["code Podfile", Key("enter")],
