@@ -90,29 +90,50 @@ ctx.keymap(
         "importRxSwift": "import RxSwift",
         "import rx cocoa": "import RxCocoa",
         "import realm | rome": "import RealmSwift",
-        "import ui kit": "import UIKit",
+        "import rx data sources": "import RxDataSources",
+        "(import ui kit) | (important you like it)": "import UIKit",
+
+        # MARKs
+        "mark properties": "// MARK: - Properties",
+        "mark (iv | IV )  outlets": "// MARK: - IBOutlets",
+        "mark private": "// MARK: - Private",
+        "mark initialization": "// MARK: - Initialization",
+        "mark to do": "// MARK: - todo ",
+        "mark view did load": "// MARK: - viewDidLoad",
 
         # General swift?
         ".annette": ".init(",
+        
         "rectangle": "rect",
         "dispatch Q a sync": "DispatchQueue.main.async {",
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         "variable": "var ",
-        "genome | tina": "enum ",
+        "on expectc dynamic variable": "@objc dynamic var ",
+        
+        "genome | tina | you know": "enum ",
         "(ns object | anna subject)": "NSObject",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
+
+        #"ns predicate": "NSPredicate(format: \"",
         "else return": "else { return ",
 
         # UIKit
-       
         "view controller": "ViewController",
         #"ui | you are": "UI",
         # scene kit
         "SK shape node": "SKShapeNode",
+        # NSLayoutConstraint
+        ".constraint": ".constraint(equalTo: ",
+        ".constantConstraint": ".constraint(equalToConstant: )",
+        ".leadingAnger": ".leadingAnchor",
+        ".trailingAcre": ".trailingAnchor",
+        ".topAnchor | .topAnger": ".topAnchor",
+        ".bottomAnchor": ".bottomAnchor",
+
 
         # AudioKit
         "midi note number": "MIDINoteNumber",
@@ -136,7 +157,7 @@ ctx.keymap(
         "refresh preview": Key("cmd-alt-p"),
 
         # RxSwift/RxCocoa
-        "dispose bag": "let disposeBag = DisposeBag()",
+        "let dispose bag": "let disposeBag = DisposeBag()",
         ".disposedBy": ".disposed(by: disposeBag)",
         ".subscribe": ".subscribe(onNext: { _ in ",
         ".find": ".bind(to: ",

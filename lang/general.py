@@ -68,11 +68,12 @@ ctx.keymap(
         "state while": ["while ()", Key("left")],
         "state for": ["for ()", Key("left")],
         "state switch": ["switch ()", Key("left")],
-        #"state case": ["case \nbreak;", Key("up")],
+        "state case": ["case \nbreak;", Key("up")],
         # Swift
         
         "state let": "let ",
         "state if let": "if let ",
+
 
         # Other Keywords
         "const": "const ",
@@ -105,6 +106,9 @@ ctx.keymap(
         # Go
         "go print": "fmt.Print",
 
+        # C++
+        "standard print": "std::cout << ",
+        "state standard": "std::",
 
         #random/temp
         "superscript" : [Key("ctrl-cmd-+")]

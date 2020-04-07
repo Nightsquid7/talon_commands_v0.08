@@ -27,7 +27,7 @@ ctx.keymap(
         "word colonel": "kernel ",
         
         "word (rome | well)": "realm",
-        "turtle (rome | well)": "Realm",
+        "turtle (rome | well | round)": "Realm",
         "word line": "line",
         "turtle line": "Line",
 

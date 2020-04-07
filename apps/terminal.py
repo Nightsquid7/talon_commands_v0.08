@@ -124,7 +124,7 @@ keymap = {
     "open unity": "open -a Unity",
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
     "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
-    
+    "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
 
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
@@ -191,8 +191,6 @@ keymap = {
     # emacs - xv6
     "quit xp6": [Key("ctrl-a"), "x"],
 
-
-
     # C Commands
     #"see print": ["printf();", Key("left"),Key("left")],
     "see print": ["printf(\"\\n\");", Key("left"),Key("left"),Key("left")],
@@ -203,14 +201,18 @@ keymap = {
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
     # operating systems
-    "obsess": ["opsys", Key("enter")],
+#    "obsess": ["opsys", Key("enter")],
+    "obsess": ["cd /home/majors/berkowit/cop4610/proj3/xv6-public; ls", Key("enter")],
     "exit shell": ["exit", Key("enter")],
     "type a list": ["ls -l", Key("enter")],
     "type semi list": ["ls -l;", Key("enter")],
 
+    # Programming Languages
+    "C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 
+
 
     #"run": ["run", Key("enter")],
-    "make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
+    "shell make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
     "check last": ["echo $?", Key("enter")],
     "run test": ["runTest", Key("enter")],      
     "open asm template": ["emacs assem-template.c", Key("enter")],
@@ -283,7 +285,7 @@ keymap = {
     "shell kill": Key("ctrl-c"),
     "shell list [<dgndictation>]": ["ls ", text],
     "shell list all [<dgndictation>]": ["ls -la ", text],
-    "shell make (durr | dear | directory) [<dgndictation>]": ["mkdir ", text],
+    #"shell make (durr | dear | directory) [<dgndictation>]": ["mkdir ", text],
     "shell mipple [<dgndictation>]": ["mkdir -p ", text],
     "shell move [<dgndictation>]": ["mv ", text],
     "shell remove [<dgndictation>]": ["rm ", text],
@@ -322,7 +324,7 @@ keymap = {
     "vi": "vi ",
     
     # other
-    "shell make": "make\n",
+    #"shell make": "make\n",
     "shell jobs": "jobs\n",
     
 }
