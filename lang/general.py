@@ -68,11 +68,14 @@ ctx.keymap(
         "state while": ["while ()", Key("left")],
         "state for": ["for ()", Key("left")],
         "state switch": ["switch ()", Key("left")],
-        "state case": ["case \nbreak;", Key("up")],
+        "state case": ["case :", Key("left")],
         # Swift
         
         "state let": "let ",
         "state if let": "if let ",
+        "state function": "func ",
+        "state in it": "init()",
+        "guard let": "guard let ",
 
 
         # Other Keywords
@@ -87,6 +90,7 @@ ctx.keymap(
         "tip string": "String",
         "miller": "nil",
         "see direct": "CGRect",
+        "(cg | cd) size": "CGSize",
         "cd float": "CGFloat",
         "cd point": ["CGPoint(x: , y:)", Key("alt-left"), Key("left"), Key("left")],
         "ui image": "UIImage(",

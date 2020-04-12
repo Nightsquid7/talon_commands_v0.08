@@ -58,10 +58,6 @@ ctx.keymap(
         "print": ["print()", Key("left")],
         "print string": ["\()", Key("left")],
         "print copy": ["print(\"\\(", Key("cmd-v"),")"],
-        "complete paren": ["(", Key("escape")],
-        "state function": "func ",
-        "state in it": "init()",
-        "guard let": "guard let ",
 
         
         "step in": Key("f7"),
@@ -103,7 +99,8 @@ ctx.keymap(
 
         # General swift?
         ".annette": ".init(",
-        
+        ".hadSomeView": ".addSubview(",
+        ".pounds | .bounce": ".bounds",
         "rectangle": "rect",
         "dispatch Q a sync": "DispatchQueue.main.async {",
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
@@ -117,12 +114,14 @@ ctx.keymap(
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
+        "state rome": "let realm = try! Realm()",
 
         #"ns predicate": "NSPredicate(format: \"",
         "else return": "else { return ",
 
         # UIKit
         "view controller": "ViewController",
+        "(you are you) | you are if you | you are you view": "UIView",
         #"ui | you are": "UI",
         # scene kit
         "SK shape node": "SKShapeNode",
