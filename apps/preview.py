@@ -7,7 +7,16 @@ ctx = Context("preview", bundle="com.apple.Preview")
 keymap = {
     "(picked | pick | p) down": [Key("down")] * 3,
     "(picked | pick | p) up": [Key("up")] * 3,
-    "highlight": Key("cmd-ctrl-h"), "note": Key("cmd-ctrl-n")
+    "bookmark page": Key("cmd-d"),
+    "show bookmarks": Key("alt-cmd-5"),
+    "hide sidebar": Key("alt-cmd-1"),
+    "table of contents": Key("alt-cmd-3"),
+    "highlight": Key("cmd-ctrl-h"), "note": Key("cmd-ctrl-n"),
+    "open recent": [Key("ctrl-1"), 
+                        Key("right"),
+                        Key("down"),
+                        Key("down"),               
+                        Key("right")],
 }
 
 ctx.keymap(keymap)
