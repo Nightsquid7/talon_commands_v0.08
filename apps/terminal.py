@@ -104,8 +104,7 @@ keymap = {
     "midi visualizer folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/music_projects/MIDI\ Visualizers",Key("enter")],
     "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\ /MIDI; ls", Key("enter")],
     "scripting": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
-    #
-    "go to shell home": ["cd ~/ ; ls ", Key("enter")],
+    
     #
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
@@ -163,6 +162,7 @@ keymap = {
     "git rebase": "g rebase -i ",
     "get - ": "git stash ",
     "get/pop": "git stash pop",
+    
 
     # emacs
     "emacs safe": [Key("ctrl-x"), Key("ctrl-s")],
