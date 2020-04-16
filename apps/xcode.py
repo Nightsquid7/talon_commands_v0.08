@@ -3,6 +3,7 @@
 
 from talon.voice import Key, Context
 from ..misc.mouse import control_shift_click
+import time
 
 ctx = Context("xcode", bundle="com.apple.dt.Xcode")
 
@@ -49,10 +50,8 @@ ctx.keymap(
         "edit scheme": Key("cmd-shift-,"),
         "quick open": Key("cmd-shift-o"),
         "comm skoosh": "// ",
-        # mycommands
-
-
-
+        
+        
         # editor
         "comment line": Key("cmd-/"),
         "print": ["print()", Key("left")],
@@ -67,9 +66,9 @@ ctx.keymap(
         "show blame for line": Key("cmd-alt-ctrl-b"),
         "(reveal file | show file in finder)": Key("cmd-alt-ctrl-shift-f"),
         "(snipline | delete line)": Key("cmd-alt-ctrl-shift-backspace"),
-        "add cursor down": Key("ctrl-shift-down"),
-        "add cursor up": Key("ctrl-shift-up"),
-        "add cursor": control_shift_click,
+        #"add cursor down": Key("ctrl-shift-down"),
+        #"add cursor up": Key("ctrl-shift-up"),
+        #"add cursor": control_shift_click,
         "dub add cursor": lambda m: control_shift_click(m, 0, 2),
         "((select | sell) (partial | sub) [word] left)": Key("shift-ctrl-left"),
         "((select | sell) (partial | sub) [word] right)": Key("shift-ctrl-right"),
@@ -111,6 +110,7 @@ ctx.keymap(
         
         "genome | tina | you know": "enum ",
         "(ns object | anna subject)": "NSObject",
+        "cda i find transform": "CGAffineTransform",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
@@ -122,7 +122,19 @@ ctx.keymap(
         # UIKit
         "view controller": "ViewController",
         "(you are you) | you are if you | you are you view": "UIView",
-        #"ui | you are": "UI",
+        ".animate": [".animate(withDuration: 1.0, delay: 0.0,", 
+                    Key("enter"),
+                    "options: [], animations: {", 
+                    Key("enter")],
+
+        ".animateSpring": [".animate(withDuration: 1.0, delay: 0.0,", 
+                    Key("enter"), Key("shift-tab"),
+                    "usingSpringWithDamping: 0.0, initialSpringVelocity: 0.0,",
+                    Key("enter"),
+                    "options: [],",
+                    Key("enter"),
+                    "animations: {", 
+                    Key("enter"), Key("up")],
         # scene kit
         "SK shape node": "SKShapeNode",
         # NSLayoutConstraint
