@@ -100,6 +100,7 @@ ctx.keymap(
         ".annette": ".init(",
         ".hadSomeView": ".addSubview(",
         ".pounds | .bounce": ".bounds",
+        ".superView": ".superview",
         "rectangle": "rect",
         "dispatch Q a sync": "DispatchQueue.main.async {",
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
@@ -107,7 +108,7 @@ ctx.keymap(
         "swiftui 4 each": "ForEach", 
         
         "variable": "var ",
-        
+        "no closer": ["{ _ in", Key("enter")],
         "genome | tina | you know": "enum ",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
@@ -148,6 +149,10 @@ ctx.keymap(
         ".trailingAcre": ".trailingAnchor",
         ".topAnchor | .topAnger": ".topAnchor",
         ".bottomAnchor": ".bottomAnchor",
+        ".withAnchor": ".widthAnchor",
+        ".hiThinker": ".heightAnchor",
+        ".centerX& | .centerXAnchor": ".centerXAnchor",
+
 
 
         # AudioKit

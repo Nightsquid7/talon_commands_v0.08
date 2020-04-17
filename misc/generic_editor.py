@@ -226,7 +226,7 @@ ctx.keymap(
         "2 fame": [Key("alt-left")] * 2,
         "3 fame": [Key("alt-left")] * 3,
         "4 fame": [Key("alt-left")] * 4,
-        "rides | roy needs": [Key("cmd-right"), Key("left")],
+        "rides | roy needs | roid": [Key("cmd-right"), Key("left")],
         "do left": [Key("down"), Key("cmd-left"), Key("tab")],
         "([go] line after end)": Key("cmd-right space"),
         "([go] line start | lefty)": Key("cmd-left"),
