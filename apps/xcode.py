@@ -105,19 +105,23 @@ ctx.keymap(
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
+        
         "variable": "var ",
-        "on expectc dynamic variable": "@objc dynamic var ",
         
         "genome | tina | you know": "enum ",
-        "(ns object | anna subject)": "NSObject",
-        "cda i find transform": "CGAffineTransform",
         "coding keys": "enum CodingKeys: String, CodingKey {",
         "jason serialization": "JSONSerialization",
         "jason decoder": "JSONDecoder()",
-        "state rome": "let realm = try! Realm()",
 
-        #"ns predicate": "NSPredicate(format: \"",
+        "(ns object | anna subject)": "NSObject",
+        "cda i find transform": "CGAffineTransform",
+        "NS layout constraint": "NSLayoutConstraint",
+        "NS predicate": ["NSPredicate(format: \"\"", Key("left")],
         "else return": "else { return ",
+
+        # Realm
+        "on expectc dynamic variable": "@objc dynamic var ",
+        "state rome": "let realm = try! Realm()",        
 
         # UIKit
         "view controller": "ViewController",
