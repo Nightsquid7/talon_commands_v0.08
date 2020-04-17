@@ -58,6 +58,8 @@ context.keymap(
         # Editing Talon
         "key it": ["Key(\"\")", Key("left"),Key("left")],
         "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
+        "newcommand | new key command": ["\"\": [Key(\"\")],", Key("cmd-left"), Key("right")],
+        
         
         # add AudioKit
         "add audiokit": ["pod \'AudioKit\', \'4.9\'"],
@@ -68,10 +70,6 @@ context.keymap(
 
         # C programming
         "see print": ["printf(\"\");", Key("left")],
-
-        # FSU class Temp
-        "set lexington explained": "setLexemeFixedLength(lexeme, 1);",
-
 
         # Selecting text
         "select line"

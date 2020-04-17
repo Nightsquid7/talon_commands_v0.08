@@ -208,8 +208,8 @@ keymap = {
     "type semi list": ["ls -l;", Key("enter")],
 
     # Programming Languages
-    "C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 
-
+    #"C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 
+    "compiley": "yacc -d ",
 
     #"run": ["run", Key("enter")],
     "shell make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],
