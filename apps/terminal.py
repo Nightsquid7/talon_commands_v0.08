@@ -130,9 +130,11 @@ keymap = {
     "input sleep data": ["osascript /Users/stevenberkowitz/Development/scripting/inputSleepData.applescript", Key("enter")],
     
     # Unix
-    "touch": "touch ",
+    "shell touch": "touch ",
     "grep talon": ["grep   */*"],
     "echo path": ["echo $PATH", Key("enter")],
+    "shell echo": "echo ",
+    "shell (asked if | sdiff)": "sdiff ",
     "shell tree": ["tree", Key("enter")],
 
             # combine
@@ -201,15 +203,32 @@ keymap = {
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
     # operating systems
-#    "obsess": ["opsys", Key("enter")],
     "obsess": ["cd /home/majors/berkowit/cop4610/proj3/xv6-public; ls", Key("enter")],
-    "exit shell": ["exit", Key("enter")],
-    "type a list": ["ls -l", Key("enter")],
-    "type semi list": ["ls -l;", Key("enter")],
+    "shell exit": ["exit", Key("enter")],
+    "make chemo": ["make qemu-nox ", Key("enter")],
+    "quick chemo": [Key("ctrl-a"), Key("c"), "quit", Key("enter")],
 
     # Programming Languages
     #"C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 
-    "compiley": "yacc -d ",
+    "programming languages": ["progl", Key("enter")],
+    "(built (yet | y)) | build yak": ["yacc -d cexpr.y", Key("enter")],
+    "(build flex) | buildx": ["flex scan.l", Key("enter")],
+    "build scanner": ["gcc lex.yy.c y.tab.c -o cexpr.exe -lfl -ggdb3", Key("enter")],
+    "build all": [Key("enter"), Key("enter"), Key("enter"),
+                  "yacc -d cexpr.y", Key("enter"),
+                  "flex  scan.l", Key("enter"),
+                  "gcc lex.yy.c y.tab.c -o cexpr.exe -lfl -ggdb3", Key("enter")],
+    "build and run": [Key("enter"), Key("enter"), Key("enter"),
+                  "yacc -d cexpr.y", Key("enter"),
+                  "flex  scan.l", Key("enter"),
+                  "gcc lex.yy.c y.tab.c -o cexpr.exe -lfl -ggdb3", Key("enter"),
+                  "./cexpr.exe < test4 > mytest4", Key("enter"),
+                  "sdiff mytest4 offtest4", Key("enter")],
+    "run exec": ["./cexpr.exe < test"],
+    "run vanilla": ["./cexpr.exe", Key("enter")],
+    "run val grind": ["valgrind cexpr.exe < test1", Key("enter")],
+    
+
 
     #"run": ["run", Key("enter")],
     "shell make": [Key("enter"), Key("enter"), Key("enter"), Key("enter"), "make ", Key("enter")],

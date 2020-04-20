@@ -58,8 +58,7 @@ context.keymap(
         # Editing Talon
         "key it": ["Key(\"\")", Key("left"),Key("left")],
         "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
-        "newcommand | new key command": ["\"\": [Key(\"\")],", Key("cmd-left"), Key("right")],
-        
+        "new key command": ["\"\": [Key(\"\")],", Key("cmd-left"), Key("right")],
         
         # add AudioKit
         "add audiokit": ["pod \'AudioKit\', \'4.9\'"],
@@ -69,7 +68,23 @@ context.keymap(
         "and tell": "end tell",
 
         # C programming
-        "see print": ["printf(\"\");", Key("left")],
+        "see print": ["printf(\"\\n\");", Key("left"), 
+                                          Key("left"),
+                                          Key("left"),
+                                          Key("left"),
+                                          Key("left")],
+        "print attributes": [" { printf(\"\"\\n); $$ = $1 ", Key("alt-left"),
+                                                          Key("alt-left"),
+                                                          Key("alt-left"),
+                                                          Key("alt-left"),
+                                                          Key("left"),
+                                                          Key("left"),
+                                                          Key("left"),
+                                                          Key("left")
+                                                          ],
+        "said attributes": "{ $$ = $1; ",
+        
+
 
         # Selecting text
         "select line"
