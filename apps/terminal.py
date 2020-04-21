@@ -203,10 +203,11 @@ keymap = {
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
     # operating systems
-    "obsess": ["cd /home/majors/berkowit/cop4610/proj3/xv6-public; ls", Key("enter")],
+    "obsess": ["cd /home/majors/berkowit/cop4610/proj4/xv6-public; ls", Key("enter")],
     "shell exit": ["exit", Key("enter")],
     "make chemo": ["make qemu-nox ", Key("enter")],
-    "quick chemo": [Key("ctrl-a"), Key("c"), "quit", Key("enter")],
+    "quick chemo": [Key("ctrl-a"), Key("c"), "quit", Key("enter"),
+                    "make clean", Key("enter")],
 
     # Programming Languages
     #"C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 

@@ -9,6 +9,8 @@ keymap = {
     "( (p | pick | picked) up) | pageup": Key("ctrl-alt-cmd-up"),
     "( (p | pick | picked) down) | pagedown": Key("ctrl-alt-cmd-down"),
     "new project": Key("cmd-alt-n"),
+    "new to do": Key("cmd-n"),
+    "new header": Key("shift-cmd-n"),
     "search": Key("cmd-f"),
 }
 
