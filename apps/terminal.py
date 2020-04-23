@@ -131,11 +131,14 @@ keymap = {
     
     # Unix
     "shell touch": "touch ",
-    "grep talon": ["grep   */*"],
     "echo path": ["echo $PATH", Key("enter")],
     "shell echo": "echo ",
+    "shell echo last": ["echo $?", Key("enter")],
     "shell (asked if | sdiff)": "sdiff ",
     "shell tree": ["tree", Key("enter")],
+    "shell (grep | grip)": "grep ",
+    "shell gripper": ["grep -rn  .", Key("left left")],
+    
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
@@ -205,9 +208,11 @@ keymap = {
     # operating systems
     "obsess": ["cd /home/majors/berkowit/cop4610/proj4/xv6-public; ls", Key("enter")],
     "shell exit": ["exit", Key("enter")],
-    "make chemo": ["make qemu-nox ", Key("enter")],
-    "quick chemo": [Key("ctrl-a"), Key("c"), "quit", Key("enter"),
-                    "make clean", Key("enter")],
+    "run (xp6 | xv6)": ["make qemu-nox ", Key("enter")],
+    "(quick | quit) (xv6 | xp6)": [Key("ctrl-a"), Key("c"), "quit", Key("enter")],
+    "make (clean | claim)": ["make clean", Key("enter")],
+    "run gbd": ["", Key("enter")],
+
 
     # Programming Languages
     #"C make": ["g++ -std=c++11 -Wall -Wextra -o cparse.x cparse.cpp;", Key("enter"), Key("enter"),"./cparse.x ./proj3_official/extra1", Key("enter")], 
@@ -338,8 +343,7 @@ keymap = {
     "apt get update": "apt-get update ",
     "apt get upgrade": "apt-get upgrade ",
     # Tools
-    "(grep | grip)": "grep ",
-    "gripper": ["grep -r  .", Key("left left")],
+    
     "pee socks": "ps aux ",
     "vi": "vi ",
     

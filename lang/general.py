@@ -69,8 +69,8 @@ ctx.keymap(
         "state for": ["for ()", Key("left")],
         "state switch": ["switch ()", Key("left")],
         "state case": ["case :", Key("left")],
-        # Swift
-        
+
+        # Swift   
         "state let": "let ",
         "state if let": "if let ",
         "state function": "func ",
@@ -80,8 +80,8 @@ ctx.keymap(
 
         # Other Keywords
         "const": "const ",
-        #"static": "static ",
         "tip pent": "Int",
+        "see pendant": "int",
         "tip pool": "Bool",
         "tip (char | care)": "char",
         "tip byte": "byte ",
@@ -110,6 +110,8 @@ ctx.keymap(
         # Go
         "go print": "fmt.Print",
 
+        # C
+        "print pendant": "%d",
         # C++
         "standard print": "std::cout << ",
         "state standard": "std::",
