@@ -11,7 +11,10 @@ keymap = {
     "new project": Key("cmd-alt-n"),
     "new to do": Key("cmd-n"),
     "new header": Key("shift-cmd-n"),
+    "next header": [Key("shift-cmd-n"), "Next", Key("enter")],
     "search": Key("cmd-f"),
+    "clear date": [Key("cmd-r")],
+    "(enter | edit) date": [Key("cmd-s")],
 }
 
 ctx.keymap(keymap)
