@@ -12,7 +12,7 @@ keymap = {
     "(downscore)": "_",
     "colon": ":",
     "(lparen | [left] paren)": "(", 
-    "(rparen | are paren | right paren | hparen | harp rparen)": ")",
+    "(rparen | are paren | right paren | hparen | harp paren | harp rparen)": ")",
     "(brace | left brace | kirksorp)": "{",
     "(rbrace | are brace | right brace )": "}",
     "(angle | left angle | less than)": "<",
