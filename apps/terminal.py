@@ -125,6 +125,7 @@ keymap = {
     "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
     "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
+    "open max commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/max.py", Key("enter")],
 
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
