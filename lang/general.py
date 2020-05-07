@@ -76,6 +76,7 @@ ctx.keymap(
         "state function": "func ",
         "state in it": "init()",
         "guard let": "guard let ",
+        "(up as | op as)": " as? ",
 
 
         # Other Keywords
@@ -108,7 +109,7 @@ ctx.keymap(
         "js print": ["console.log()", Key("left")],
 
         # Go
-        "go print": "fmt.Print",
+        "go print": "fmt.Println",
 
         # C
         "print pendant": "%d",

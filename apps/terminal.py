@@ -133,6 +133,7 @@ keymap = {
     "sleep data": ["sleepdata", Key("enter")],
     
     # Unix
+    "shell man": "man ",
     "shell top": ["top", Key("enter")],
     "shell touch": "touch ",
     "echo path": ["echo $PATH", Key("enter")],
