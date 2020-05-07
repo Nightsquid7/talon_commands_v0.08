@@ -46,7 +46,7 @@ surrounders = normalise_keys(
         "dubstring": (False, surround('"')),
         "angler": (False, surround("<", ">")),
         "brax": (False, surround("[", "]")),
-        #"kirk": (False, surround("{", "}")),
+        "kirk": (False, surround("{", "}")),
         "precoif": (False, surround('("', '")')),
         "(prex)": (False, surround("(", ")")),
     }
