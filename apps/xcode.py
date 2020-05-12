@@ -51,7 +51,8 @@ ctx.keymap(
         "quick open": Key("cmd-shift-o"),
         "comm skoosh": "// ",
         
-        
+        "open library": [Key("shift-cmd-l")],
+
         # editor
         "comment line": Key("cmd-/"),
         "print": ["print()", Key("left")],
