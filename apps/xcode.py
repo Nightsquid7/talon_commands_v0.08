@@ -183,8 +183,16 @@ ctx.keymap(
         ".subscribe": ".subscribe(onNext: { _ in ",
         ".find": ".bind(to: ",
         
+        # Temporary -> while reading Ray W. Books...
+        "example of": ["example(of: \"\") {", Key("enter"), 
+                                              Key("up"), 
+                                              Key("cmd-right"),
+                                              Key("left"),
+                                              Key("left"),
+                                              Key("left"),
+                                              Key("left")],
         # Containers
-        
+
         "horizontal stack": ["HStack {}", Key("left")],
         "vertical stack": ["VStack {}", Key("left")],
         "spacer": ["Spacer()"],
