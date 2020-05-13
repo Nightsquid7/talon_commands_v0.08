@@ -133,6 +133,7 @@ keymap = {
     "sleep data": ["sleepdata", Key("enter")],
     
     # Unix
+    "shell alias": "alias ",
     "shell man": "man ",
     "shell top": ["top", Key("enter")],
     "shell touch": "touch ",
@@ -207,6 +208,7 @@ keymap = {
     "see scan": ["sscanf(,)"],
     
     # fsu Comp Sci
+    "fsu canvas": ["fsucanvas", Key("enter")],
     "ssh": ["ssh berkowit@linprog.cs.fsu.edu", Key("enter")],
     "open fsu tabs": "osascript /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/automation/openFSUTabsInChrome.applescript",
     
