@@ -108,7 +108,7 @@ ctx.keymap(
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
         
-        "variable": "var ",
+        
         "no closer": ["{ _ in", Key("enter")],
         "genome | tina | you know": "enum ",
         "coding keys": "enum CodingKeys: String, CodingKey {",

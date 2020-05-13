@@ -73,11 +73,14 @@ ctx.keymap(
         # Swift   
         "state let": "let ",
         "state if let": "if let ",
-        "state function": "func ",
+        "state (function | funk)": "func ",
         "state in it": "init()",
-        "guard let": "guard let ",
+        "state guard let": "guard let ",
         "(up as | op as)": " as? ",
+        "static function": "static func ",
 
+        "variable": "var ",
+        "lazy variable": "lazy var ",
 
         # Other Keywords
         "const": "const ",

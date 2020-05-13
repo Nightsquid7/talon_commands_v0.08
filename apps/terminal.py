@@ -122,6 +122,8 @@ keymap = {
     # open apps/files
     "open unity": "open -a Unity",
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
+    "(open apco man's | open app commands)": [ "code /Users/stevenberkowitz/.talon/user/talon_community/apps/"],
+    "open general commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/lang/general.py", Key("enter")],
     "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
     "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
