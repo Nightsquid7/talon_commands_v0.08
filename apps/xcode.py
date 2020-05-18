@@ -52,12 +52,13 @@ ctx.keymap(
         "comm skoosh": "// ",
         
         "open library": [Key("shift-cmd-l")],
+        "show outline": [Key("ctrl-6")],
 
         # editor
         "comment line": Key("cmd-/"),
-        "print": ["print()", Key("left")],
+        "swift print": ["print()", Key("left")],
         "print string": ["\()", Key("left")],
-        "print copy": ["print(\"\\(", Key("cmd-v"),")"],
+        "print$0": "print($0)",
 
         
         "step in": Key("f7"),
@@ -107,8 +108,7 @@ ctx.keymap(
         "dispatch Q a sync after": ["DispatchQueue.main.asyncAfter(deadline:  .now() + ) {",Key("enter"), Key("up"), Key("cmd-right")],
         "dot 4 each": ".forEach",
         "swiftui 4 each": "ForEach", 
-        
-        
+          
         "no closer": ["{ _ in", Key("enter")],
         "genome | tina | you know": "enum ",
         "coding keys": "enum CodingKeys: String, CodingKey {",
@@ -180,7 +180,14 @@ ctx.keymap(
         # RxSwift/RxCocoa
         "let dispose bag": "let disposeBag = DisposeBag()",
         ".disposedBy": ".disposed(by: disposeBag)",
-        ".subscribe": ".subscribe(onNext: { _ in ",
+        ".subscribe": [".subscribe(onNext: { ", Key("enter"),
+                                                     Key("down"),
+                                                     Key("enter"),
+                                                     Key("tab"),
+                                                     ".disposed(by: disposeBag)",
+                                                     Key("up"),
+                                                     Key("up"),
+                                                     ],
         ".find": ".bind(to: ",
         
         # Temporary -> while reading Ray W. Books...

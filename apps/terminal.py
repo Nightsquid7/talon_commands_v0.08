@@ -146,7 +146,7 @@ keymap = {
     "shell tree": ["tree", Key("enter")],
     "shell (grep | grip)": "grep ",
     "shell gripper": ["grep -rn  .", Key("left left")],
-    
+    "shell open": "open ",
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
