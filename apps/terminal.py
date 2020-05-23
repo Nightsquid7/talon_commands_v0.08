@@ -254,7 +254,7 @@ keymap = {
     "make directory" : "mkdir ",
 
     # iOS
-    "open workspace": ["open -a 'Xcode 11.1 11A1027' *space ", Key("enter")],
+    "open workspace": ["open *space ", Key("enter")],
     # add pod to xCode
     "part in it": ["pod init", Key("enter")],
     "code part file": ["code Podfile", Key("enter")],
@@ -301,6 +301,7 @@ keymap = {
     "directory {terminal.directory_shortcuts}": name_directory_shortcuts,
     "(ls | run ellis | run alice)": "ls\n",
     "(la | run la)": "ls -la\n",
+    "(shell | shall ) shortlist": ["ll", Key("enter")],
     # "durrup": "cd ..; ls\n",
     "go back": "cd -\n",
     "dash <dgndictation> [over]": dash,
