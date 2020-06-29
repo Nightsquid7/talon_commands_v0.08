@@ -173,8 +173,7 @@ keymap = {
     "git diff": "g diff ",
     "get diff stage": ["git diff --staged", Key("enter")],
     "git rebase": "g rebase -i ",
-    "get - ": "git stash ",
-    "get/pop": "git stash pop",
+    "get - | gets- | gets- dash": "git stash ",
     
 
     # emacs
