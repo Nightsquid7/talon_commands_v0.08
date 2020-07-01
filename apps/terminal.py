@@ -155,10 +155,12 @@ keymap = {
     
     # git
     "code get ignore": ["code .gitignore", Key("enter")],
+    "get in8": ["g init", Key("enter")],
     "get pole": "g pull ",
     "get push": "g push ",
     "git add": "g add ",
     "add you": ["g add -u", Key("enter"), "sta", Key("enter")],
+    "add and commit": "git commit -am \"",
     "get show": "git show ",
     "glow": ["glo ", Key("enter")],
     "git list files": ["g ls-files", Key("enter")],
