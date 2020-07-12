@@ -36,7 +36,7 @@ ctx.keymap(
         "(hide | no) toolbar": Key("cmd-alt-t"),
         "info": Key("cmd-i"),
         "view [options]": Key("cmd-j"),
-        "connect [to server]": Key("cmd-k"),
+        
         "[(make | create)] (alias | shortcut)": Key("cmd-l"),
         "minimize": Key("cmd-m"),
         "new window": Key("cmd-n"),
@@ -73,7 +73,7 @@ ctx.keymap(
         "documents": Key("cmd-shift-o"),
         "air drop": Key("cmd-shift-r"),
         "utilities": Key("cmd-shift-u"),
-        "downloads": Key("cmd-shift-l"),
+        "downloads": Key("cmd-alt-l"),
         "applications": Key("cmd-shift-a"),
         "developer": go_to_path("~/Developer"),
         # Navigation Personal folders

@@ -128,6 +128,7 @@ keymap = {
     "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
     "open max commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/max.py", Key("enter")],
+    "open live commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/live.py", Key("enter")],
 
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
@@ -163,10 +164,12 @@ keymap = {
     "add and commit": "git commit -am \"",
     "get show": "git show ",
     "glow": ["glo ", Key("enter")],
+    "get roughl | get rest log": ["git reflog", Key("enter")],
     "git list files": ["g ls-files", Key("enter")],
     "git remove": "g rm ",
-    "get reset": "git reset",
+    "get reset": "git reset ",
     "sta": ["sta ", Key("enter")],
+    "get commit": "git commit ",
     "commit message": "g commit -m \"",
     "git checkout": "g checkout ",
     "checkout new branch": "g checkout -b ",

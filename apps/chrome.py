@@ -154,15 +154,21 @@ context.keymap(
     {
         # go to websites 
         # [focus_address_bar, "", Key("enter")],
+
+        "popular | poker you": "Pakuryu",
         "fsu canvas": [focus_address_bar, "https://canvas.fsu.edu/login?needs_cookies=1", Key("enter")],
         "x github": [focus_address_bar, "https://github.com", Key("enter")],
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
+        "google translate": [focus_address_bar, "https://translate.google.com/?hl=ja_JP", Key("enter")],
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
         
+
+        # Temporary
+        "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
