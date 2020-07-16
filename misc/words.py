@@ -43,8 +43,6 @@ ctx.keymap(
 
         # Temporary
         # FSU Summer 2020
-        "rtv three zero zero1 | rtv": "RTV3001",
-        "com3332 | com ": "COM3332",
         "adv three zero zero8 | adv": "ADV3008",
         "word public relations": "PUR3000",
 
