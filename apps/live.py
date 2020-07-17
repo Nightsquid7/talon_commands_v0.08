@@ -27,7 +27,8 @@ keymap = {
     "audio effects": lambda m: focusCategories(6),
     "instruments": lambda m: focusCategories(7), 
     "search": [Key("cmd-f")],
-    
+    "(show | hide) (sentence | seds)": [Key("cmd-alt-r")],
+    "(show | hide) (devices | midi)": [Key("cmd-alt-l")],
 }
 
 ctx.keymap(keymap)
