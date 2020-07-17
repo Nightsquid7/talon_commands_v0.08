@@ -165,7 +165,9 @@ context.keymap(
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
-        
+        "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
+        "zeppelin taskse": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1zkbTp8fFf_Lv7ba0v81_T2BjESHs0tEQsv_MaiA62PM/edit#gid=386396969", Key("enter")], 
+
 
         # Temporary
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
