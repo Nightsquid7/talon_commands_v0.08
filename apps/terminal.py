@@ -140,7 +140,6 @@ keymap = {
     "shell man": "man ",
     "shell top": ["top", Key("enter")],
     "shell touch": "touch ",
-    "echo path": ["echo $PATH", Key("enter")],
     "shell echo": "echo ",
     "shell echo last": ["echo $?", Key("enter")],
     "shell (asked if | sdiff)": "sdiff ",
@@ -148,6 +147,8 @@ keymap = {
     "shell (grep | grip)": "grep ",
     "shell gripper": ["grep -rn  .", Key("left left")],
     "shell open": "open ",
+    "shell (pb | pv) copy ": "pbcopy ",
+    "echo path": ["echo $PATH", Key("enter")],
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
@@ -158,7 +159,7 @@ keymap = {
     "code get ignore": ["code .gitignore", Key("enter")],
     "get in8": ["git init", Key("enter")],
     "get pole | poll": "git pull ",
-    "get fetch": "git fetch",
+    "get fetch": "git fetch 5",
     "get push": "git push ",
     "git add": "git add ",
     "add you": ["git add -u", Key("enter"), "sta", Key("enter")],
@@ -174,13 +175,14 @@ keymap = {
     "commit message": "git commit -m \"",
     "git checkout": "git checkout ",
     "checkout new branch": "git checkout -b ",
-    "git branch": ["git branch ", Key("enter")],
+    "git branch": "git branch ",
     "git branch all": ["git branch -a", Key("enter")], 
     "git diff": "git diff ",
     "get diff stage": ["git diff --staged", Key("enter")],
     "git rebase": "git rebase -i ",
     "get remote": "git remote ",
     "get - | gets- | gets- dash": "git stash ",
+    "get march | merge": "git merge ",
     
 
     # emacs
