@@ -16,7 +16,7 @@ def focusCategories(upCount):
       press("up") 
     
     press("right")
-        
+       
 
 keymap = {
     "browser": [Key("cmd-alt-b")],
@@ -25,10 +25,16 @@ keymap = {
     "live devices": lambda m: focusCategories(4),
     "many effects": lambda m: focusCategories(5),
     "audio effects": lambda m: focusCategories(6),
-    "instruments": lambda m: focusCategories(7), 
+    "ableton instruments": lambda m: focusCategories(7), 
     "search": [Key("cmd-f")],
     "(show | hide) (sentence | seds)": [Key("cmd-alt-r")],
     "(show | hide) (devices | midi)": [Key("cmd-alt-l")],
+    "sound toys": [Key("cmd-f"), "Soundtoys"],
+    "native instruments": [Key("cmd-f"), "Native Instruments"],
+    "fab filter": [Key("cmd-f"), "Fabfilter"],
+
+    "open contact": [Key("cmd-f"), 
+                     "Kontakt"],
 }
 
 ctx.keymap(keymap)
