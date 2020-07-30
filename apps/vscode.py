@@ -59,7 +59,13 @@ context.keymap(
         "key it": ["Key(\"\")", Key("left"),Key("left")],
         "new command": ["\"\": \"\",", Key("alt-left"),Key("alt-left"),Key("right")],
         "new key command": ["\"\": [Key(\"\")],", Key("cmd-left"), Key("right")],
-        
+        "new chrome destination": ["\"\": [focus_address_bar, \"\", Key(\"enter\")],", 
+                                   Key("alt-left"),
+                                   Key("alt-left"),
+                                   Key("alt-left"),
+                                   Key("alt-left"),
+                                   Key("alt-left"),
+                                   Key("right")],
         # add AudioKit
         "add audiokit": ["pod \'AudioKit\', \'4.9\'"],
 
