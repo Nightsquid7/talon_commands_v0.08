@@ -165,8 +165,13 @@ context.keymap(
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
+        
+        "splice sounds": [focus_address_bar, "https://splice.com/nightsquid", Key("enter")],
+        
         "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
-        "zeppelin taskse": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1zkbTp8fFf_Lv7ba0v81_T2BjESHs0tEQsv_MaiA62PM/edit#gid=386396969", Key("enter")], 
+        "zeppelin new issue": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/new?assignees=&labels=dev&template=new-audio-asset-template.md&title=", Key("enter")],
+        "zeppelin (taskse | (task sheet) )": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1zkbTp8fFf_Lv7ba0v81_T2BjESHs0tEQsv_MaiA62PM/edit#gid=386396969", Key("enter")], 
+        "zeppelin (timesheet | clock out)": [focus_address_bar, "https://p.secure.freee.co.jp/", Key("enter")],
 
 
         # Temporary
