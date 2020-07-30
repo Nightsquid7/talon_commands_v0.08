@@ -108,7 +108,6 @@ keymap = {
     #
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
-    "zip show config": ["zshrc", Key("enter")],
     "finder": ["open -a finder .", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
@@ -117,10 +116,14 @@ keymap = {
     "node": "node ",
     "osc": ["osc", Key("enter")],
 
+    "remove checkmarks": ["remcheck", Key("enter")],  
+    "shell (substitute | sub | sup)": ["$()", Key("left")],
+
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")], 
     # open apps/files
-    "open unity": "open -a Unity",
+    "open shell commands": ["zshrc", Key("enter")],
+    "reload shell commands": ["runz", Key("enter")],
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
     "(open apco man's | open app commands)": [ "code /Users/stevenberkowitz/.talon/user/talon_community/apps/"],
     "open general commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/lang/general.py", Key("enter")],
@@ -183,6 +186,9 @@ keymap = {
     "get remote": "git remote ",
     "get - | gets- | gets- dash": "git stash ",
     "get march | merge": "git merge ",
+    "get clone": "git clone ",
+    
+    
     
 
     # emacs
