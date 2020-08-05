@@ -20,7 +20,8 @@ def focusCategories(upCount):
 
 keymap = {
     "browser": [Key("cmd-alt-b")],
-    "(click | clip) view": [Key("cmd-alt-l")],
+    "device view": [Key("cmd-alt-l")],
+    "(hi | show) video": [Key("cmd-alt-v")],
     "(plug in) | third party": lambda m: focusCategories(3),
     "live devices": lambda m: focusCategories(4),
     "many effects": lambda m: focusCategories(5),
@@ -32,7 +33,8 @@ keymap = {
     "sound toys": [Key("cmd-f"), "Soundtoys"],
     "native instruments": [Key("cmd-f"), "Native Instruments"],
     "fab filter": [Key("cmd-f"), "Fabfilter"],
-
+    "oratorio | arterial": [Key("cmd-f"), "Arturia"],
+    "valhalla": [Key("cmd-f"), "Valhalla"],
     "open contact": [Key("cmd-f"), 
                      "Kontakt"],
 }
