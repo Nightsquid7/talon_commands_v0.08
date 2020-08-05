@@ -102,10 +102,11 @@ keymap = {
     "nightsquid projects": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
     "midi visualizer folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/music_projects/MIDI\ Visualizers",Key("enter")],
-    "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\ /MIDI; ls", Key("enter")],
+    "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\/MIDI; ls", Key("enter")],
     "scripting": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
     
-    #
+    "zeppelin music": ['cd /Users/stevenberkowitz/Documents/Music/Zeppelin/ARaddin; ll', Key("enter")],
+    
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
     "finder": ["open -a finder .", Key("enter")],
@@ -117,6 +118,7 @@ keymap = {
     "osc": ["osc", Key("enter")],
 
     "remove checkmarks": ["remcheck", Key("enter")],  
+    "af convert": ["afconvert -f m4af -d aac -b 256000 "],
     "shell (substitute | sub | sup)": ["$()", Key("left")],
 
     "yes": ["y", Key("enter")],
@@ -139,6 +141,7 @@ keymap = {
     "sleep data": ["sleepdata", Key("enter")],
     
     # Unix
+    "shell find": "find . -name \"*",
     "shell alias": "alias ",
     "shell man": "man ",
     "shell top": ["top", Key("enter")],
