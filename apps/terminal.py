@@ -154,6 +154,7 @@ keymap = {
     "shell gripper": ["grep -rn  .", Key("left left")],
     "shell open": "open ",
     "shell (pb | pv) copy ": "pbcopy ",
+    "(shell | shall) (pb | pv) do it": "pbpaste ",
     "echo path": ["echo $PATH", Key("enter")],
 
             # combine
