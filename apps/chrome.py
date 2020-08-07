@@ -169,6 +169,7 @@ context.keymap(
         "splice sounds": [focus_address_bar, "https://splice.com/nightsquid", Key("enter")],
         
         "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
+        "zeppelin audio list": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1GXv58WJPgQqYkR0SprHi6Pn8V1StkjMmBsLaGdN0-E0/edit#gid=0", Key("enter")],
         "zeppelin new issue": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/new?assignees=&labels=dev&template=new-audio-asset-template.md&title=", Key("enter")],
         "zeppelin (taskse | (task sheet) )": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1zkbTp8fFf_Lv7ba0v81_T2BjESHs0tEQsv_MaiA62PM/edit#gid=386396969", Key("enter")], 
         "zeppelin (timesheet | clock out)": [focus_address_bar, "https://p.secure.freee.co.jp/", Key("enter")],
