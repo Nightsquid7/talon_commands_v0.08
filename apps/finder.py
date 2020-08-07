@@ -81,6 +81,7 @@ ctx.keymap(
         "audio kit folder": go_to_path("/Users/stevenberkowitz/Development/AudioKit-iOS"),
         "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/fsuComputerScience/Summer2020"), Key("cmd-down")],
         
+        "zeppelin music folder": [go_to_path("/Users/stevenberkowitz/Documents/Music/Zeppelin/ARaddin")],
         "talon": go_to_path("~/.talon/user"),
         "ergo dogs": go_to_path("/Users/stevenberkowitz/Development/Hands Free/Ergodox"),
         "midi folder": go_to_path("/Users/stevenberkowitz/Documents/Music /MIDI"),
