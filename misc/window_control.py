@@ -29,8 +29,8 @@ ctx.keymap(
         # window control
         "(open | new) window": Key("cmd-n"),
         "close window": Key("cmd-shift-w"),
-        "([switch] window (next | right) | gibby)": Key("cmd-`"),
-        "([switch] window (left | previous | preev) | shibby)": Key("cmd-shift-`"),
+        "([switch] window (next | right))": Key("cmd-`"),
+        "([switch] window (left | previous | preev))": Key("cmd-shift-`"),
         "[switch] space (right | next)": Key("ctrl-right"),
         "[switch] space (left | previous | preev)": Key("ctrl-left"),
         "(minimise window | curtail)": Key("cmd-m"),

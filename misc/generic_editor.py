@@ -231,7 +231,7 @@ ctx.keymap(
         "([go] line after end)": Key("cmd-right space"),
         "([go] line start | lefty)": Key("cmd-left"),
         "([go] line end | ricky)": Key("cmd-right"),
-        "([go] line before end | smear)": Key("cmd-right left"),
+        "([go] line before end)": Key("cmd-right left"),
         # insertions
         "([insert] line break | sky turn)": Key("shift-enter"),
         "([insert] new line below | slap)": Key("cmd-right enter"),
