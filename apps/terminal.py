@@ -134,7 +134,7 @@ keymap = {
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
     "open max commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/max.py", Key("enter")],
     "open live commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/live.py", Key("enter")],
-
+    "open talon words": ["code /Users/stevenberkowitz/.talon/user/talon_community/misc/words.py", Key("enter")],
     #  AppleScripts
     "add chrome url to notes": ["osascript /Users/stevenberkowitz/Development/scripting/addChromeUrlToNotes.applescript", Key("enter")],
     "input sleep data": ["osascript /Users/stevenberkowitz/Development/scripting/inputSleepData.applescript", Key("enter")],
