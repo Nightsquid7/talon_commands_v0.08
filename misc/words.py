@@ -25,6 +25,7 @@ ctx.keymap(
         "swift went": "swiftlint ",
         "word send": "synth ",
         "word colonel": "kernel ",
+        "word aladdin": "ARaddin",
         
         "word (rome | well)": "realm",
         "turtle (rome | well | round)": "Realm",
