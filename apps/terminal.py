@@ -131,6 +131,7 @@ keymap = {
     "open general commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/lang/general.py", Key("enter")],
     "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
     "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
+    "open xcode project": ["open *proj", Key("enter")],
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
     "open max commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/max.py", Key("enter")],
     "open live commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/live.py", Key("enter")],
@@ -155,6 +156,8 @@ keymap = {
     "shell open": "open ",
     "shell (pb | pv) copy ": "pbcopy ",
     "(shell | shall) (pb | pv) do it": "pbpaste ",
+    "shell change mode": "chmod ",
+    "shell said": ["sed \'s///\'", Key("alt-left"), Key("right"), Key("right")],
     "echo path": ["echo $PATH", Key("enter")],
 
             # combine
