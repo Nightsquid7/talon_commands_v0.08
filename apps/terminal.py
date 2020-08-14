@@ -119,7 +119,9 @@ keymap = {
 
     "remove checkmarks": ["remcheck", Key("enter")],  
     "af convert": ["afconvert -f m4af -d aac -b 256000 "],
+    "afterplay | af play": "afplay -d ",
     "shell (substitute | sub | sup)": ["$()", Key("left")],
+    "substitute last": "$(lst)",
 
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")], 
