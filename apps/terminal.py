@@ -99,14 +99,14 @@ keymap = {
     # Personal keys 
     # Navigation
     # # Folders
-    "nightsquid projects": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
+    "nightsquid folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/; ls", Key("enter")],
     "fsu folder": ["fsu", Key("enter")],
     "midi visualizer folder": ["cd /Users/stevenberkowitz/Development/Nightsquid\ Personal\ Projects/music_projects/MIDI\ Visualizers",Key("enter")],
     "midi folder": ["cd /Users/stevenberkowitz/Documents/Music\/MIDI; ls", Key("enter")],
-    "scripting": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
+    "scripting folder": ["cd /Users/stevenberkowitz/Development/scripting/; ls",Key("enter")],
     
     "zeppelin music": ['cd /Users/stevenberkowitz/Documents/Music/Zeppelin/ARaddin; ll', Key("enter")],
-    
+    "audio hijack folder": ['cd /Users/stevenberkowitz/Music/Audio\ Hijack; ls', Key("enter")],
     # Utility
     "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
     "finder": ["open -a finder .", Key("enter")],
@@ -121,13 +121,13 @@ keymap = {
     "af convert": ["afconvert -f m4af -d aac -b 256000 "],
     "afterplay | af play": "afplay -d ",
     "shell (substitute | sub | sup)": ["$()", Key("left")],
-    "substitute last": "$(lst)",
+    "(substitute | sub) last": "$(lst)",
 
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")], 
     # open apps/files
     "open shell commands": ["zshrc", Key("enter")],
-    "reload shell commands": ["runz", Key("enter")],
+    "(reload | run) shell commands": ["runz", Key("enter")],
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
     "(open apco man's | open app commands)": [ "code /Users/stevenberkowitz/.talon/user/talon_community/apps/"],
     "open general commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/lang/general.py", Key("enter")],
@@ -161,6 +161,7 @@ keymap = {
     "shell change mode": "chmod ",
     "shell said": ["sed \'s///\'", Key("alt-left"), Key("right"), Key("right")],
     "echo path": ["echo $PATH", Key("enter")],
+    "(show | shell) off": ["awk '{}'", Key("left"), Key("left")],
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
