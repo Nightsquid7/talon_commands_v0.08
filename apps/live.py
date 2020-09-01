@@ -16,19 +16,30 @@ def focusCategories(upCount):
       press("up") 
     
     press("right")
-       
+
+def pressMultiple(key,times):
+    for x in range(times):
+      press(key)
+
+     
 
 keymap = {
     "save it": [Key("cmd-s")],
     "save as": [Key("cmd-shift-s")],
     "duplicate": [Key("cmd-d")],
     "browser": [Key("cmd-alt-b")],
-    "preferences": [Key("cmd-,")],
+    "open preferences": [Key("cmd-,")],
     "rename": [Key("cmd-r")],
-    "device view": [Key("cmd-alt-l")],
+    "export trap": [Key("shift-cmd-r")],
+    "midi window | view": [Key("cmd-alt-l")],
     "device window": [Key("cmd-alt-p")],
     "(hi | show) video": [Key("cmd-alt-v")],
     "lp | loup": [Key("cmd-l")],
+
+    "makemidit": [Key("shift-cmd-t")],
+    "make audiot": [Key("cmd-t")],
+    "make many region": [Key("shift-cmd-m")],
+    
     "(plug in) | third party": lambda m: focusCategories(3),
     "max devices": lambda m: focusCategories(4),
     "many effects": lambda m: focusCategories(5),
@@ -43,8 +54,18 @@ keymap = {
     "fab filter": [Key("cmd-f"), "Fabfilter"],
     "oratorio | arterial": [Key("cmd-f"), "Arturia"],
     "valhalla": [Key("cmd-f"), "Valhalla"],
+    # Open instruments
+    # Audreio
+    "open (alter ego) | allj": [Key("cmd-f"), 
+                       "audreio",
+                       Key("down")],
+    "open reactor": [Key("cmd-f"), 
+                     "Reaktor",
+                     Key("down"),
+                     ],
     "open contact": [Key("cmd-f"), 
-                     "Kontakt"],
+                     "Kontakt",
+                     lambda m: pressMultiple("down", 1)],
 }
 
 ctx.keymap(keymap)
