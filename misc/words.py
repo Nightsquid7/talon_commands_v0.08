@@ -1,7 +1,3 @@
-"""
-
-"""
-
 from talon.voice import Context
 
 ctx = Context("words")
@@ -31,7 +27,7 @@ ctx.keymap(
         "turtle (rome | well | round)": "Realm",
         "word line": "line",
         "turtle line": "Line",
-
+        "word jitter": "jitter",
         "any music": "AniMusic",        
         "midi": "midi",
         "yeller midi": "MIDI",
@@ -43,9 +39,9 @@ ctx.keymap(
         "quotable": "Codable",
 
         # Temporary
-        # FSU Summer 2020
-        "adv three zero zero8 | adv": "ADV3008",
-        "word public relations": "PUR3000",
+        # FSU Fall 2020       
+        "word cap" : "CAP4601 ", 
+        "word cop": "COP4813 ",
 
     }
 )

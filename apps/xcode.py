@@ -59,7 +59,7 @@ ctx.keymap(
         "swift print": ["print()", Key("left")],
         "print string": ["\()", Key("left")],
         "print$0": "print($0)",
-
+        "(certain | search in) project ": [Key("shift-cmd-f")],
         
         "step in": Key("f7"),
         "step over": Key("f6"),
@@ -180,7 +180,7 @@ ctx.keymap(
         # RxSwift/RxCocoa
         "let dispose bag": "let disposeBag = DisposeBag()",
         ".disposedBy": ".disposed(by: disposeBag)",
-        ".subscribe": [".subscribe(onNext: { ", Key("enter"),
+        ".subscribe": [".subscribe { ", Key("enter"),
                                                      Key("down"),
                                                      Key("enter"),
                                                      Key("tab"),
