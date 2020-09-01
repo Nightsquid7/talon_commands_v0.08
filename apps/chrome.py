@@ -161,20 +161,22 @@ context.keymap(
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
+        "google documents | docs": [focus_address_bar, "https://docs.google.com/document/u/0/?tgif=d", Key("enter")],
         "google translate": [focus_address_bar, "https://translate.google.com/?hl=ja_JP", Key("enter")],
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
         "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
         "live object model": [focus_address_bar, "https://docs.cycling74.com/max8/vignettes/live_object_model", Key("enter")],
-        "splice sounds": [focus_address_bar, "https://splice.com/nightsquid", Key("enter")],
+        "splice sounds": [focus_address_bar, "https://splice.com/sounds", Key("enter")],
         
         "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
+        "(step one) | zeppelin master list": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/72", Key("enter")],
         "zeppelin audio list": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1GXv58WJPgQqYkR0SprHi6Pn8V1StkjMmBsLaGdN0-E0/edit#gid=0", Key("enter")],
         "zeppelin new issue": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/new?assignees=&labels=dev&template=new-audio-asset-template.md&title=", Key("enter")],
         "zeppelin (taskse | (task sheet) )": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1zkbTp8fFf_Lv7ba0v81_T2BjESHs0tEQsv_MaiA62PM/edit#gid=386396969", Key("enter")], 
         "zeppelin (timesheet | clock out)": [focus_address_bar, "https://p.secure.freee.co.jp/", Key("enter")],
         "zeppelin workplace": [focus_address_bar, "https://zeppelin.workplace.com/?request_id=jindmlfmmgmciampolkpkmbdapmnoiamaponfmfk&login_type=0", Key("enter")],
-
+        "zeppelin drive": [focus_address_bar, "https://drive.google.com/drive/folders/1sa0NKDBGaPI4jEgi7PpKwg5sgB0YJimI", Key("enter")],
         # Temporary
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
