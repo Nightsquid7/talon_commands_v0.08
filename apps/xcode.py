@@ -90,12 +90,12 @@ ctx.keymap(
         "import rx data sources": "import RxDataSources",
         "(import ui kit) | (important you like it)": "import UIKit",
 
-        # MARKs
+        # Markdown
         "mark properties": "// MARK: - Properties",
         "mark (iv | IV )  outlets": "// MARK: - IBOutlets",
         "mark private": "// MARK: - Private",
         "mark initialization": "// MARK: - Initialization",
-        "mark to do": "// MARK: - todo ",
+        "mark to do": "// TODO:  ",
         "mark view did load": "// MARK: - viewDidLoad",
 
         # General swift?

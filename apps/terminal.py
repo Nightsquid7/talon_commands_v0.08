@@ -122,6 +122,7 @@ keymap = {
     "afterplay | af play": "afplay -d ",
     "shell (substitute | sub | sup)": ["$()", Key("left")],
     "(substitute | sub) last": "$(lst)",
+    "HAD": "HEAD",
 
     "yes": ["y", Key("enter")],
     "no": ["n", Key("enter")], 
@@ -149,7 +150,7 @@ keymap = {
     "shell man": "man ",
     "shell top": ["top", Key("enter")],
     "shell touch": "touch ",
-    "shell echo": "echo ",
+    "shell echo": "echo -n ",
     "shell echo last": ["echo $?", Key("enter")],
     "shell (asked if | sdiff)": "sdiff ",
     "shell tree": ["tree", Key("enter")],
@@ -162,6 +163,9 @@ keymap = {
     "shell said": ["sed \'s///\'", Key("alt-left"), Key("right"), Key("right")],
     "echo path": ["echo $PATH", Key("enter")],
     "(show | shell) off": ["awk '{}'", Key("left"), Key("left")],
+    "shell app find": ["mdfind -name \"*\"", Key("left")],
+    "shell tail": "tail -n ",
+    "shell had": "head -n ",
 
             # combine
     "open combine book": "open /Users/stevenberkowitz/Documents/Developer/Learning\ Resources/Ray\ Wenderlich/Combine_Asynchronous_Programming_with_Swift_v1.0.2/*.pdf",
@@ -364,7 +368,7 @@ keymap = {
     "shell M player": "mplayer ",
     "shell nvidia S M I": "nvidia-smi ",
     "shell R sync": "./src/dotfiles/sync_rsync ",
-    "shell tail": "tail ",
+    
     "shell tail follow": "tail -f ",
     "shall count lines": "wc -l ",
     "shell L S U S B": "lsusb",

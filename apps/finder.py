@@ -79,7 +79,7 @@ ctx.keymap(
         # Navigation Personal folders
         "personal projects folder": go_to_path("/Users/stevenberkowitz/Development/Nightsquid Personal Projects"),
         "audio kit folder": go_to_path("/Users/stevenberkowitz/Development/AudioKit-iOS"),
-        "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/fsuComputerScience/Summer2020"), Key("cmd-down")],
+        "fsu folder": [go_to_path("/Users/stevenberkowitz/Documents/fsuComputerScience/fall_2020")],
         
         "zeppelin music folder": [go_to_path("/Users/stevenberkowitz/Documents/Music/Zeppelin/ARaddin")],
         "talon": go_to_path("~/.talon/user"),

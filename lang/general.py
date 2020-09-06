@@ -102,6 +102,7 @@ ctx.keymap(
 
         # Comments
         "comment see": "// ",
+        "comment doc": "/// ", # xcode markdown 
         "comment py": "# ",
         
         # custom
@@ -121,7 +122,9 @@ ctx.keymap(
         "state standard": "std::",
 
         #random/temp
-        "superscript" : [Key("ctrl-cmd-+")]
+        "superscript" : [Key("ctrl-cmd-+")],
+        "article tag": ["<a href=\'></a>", Key("alt-left"), Key("left"), Key("left"), Key("left")],
+        "paragraph tag": ["<p></p>", Key("alt-left"), Key("left"), Key("left"), Key("left")],
 
     }
 )

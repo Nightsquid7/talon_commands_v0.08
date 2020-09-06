@@ -34,10 +34,11 @@ keymap = {
     "midi window | view": [Key("cmd-alt-l")],
     "device window": [Key("cmd-alt-p")],
     "(hi | show) video": [Key("cmd-alt-v")],
+    "(hi | show) groove": [Key("cmd-alt-g")],
     "lp | loup": [Key("cmd-l")],
 
-    "makemidit": [Key("shift-cmd-t")],
-    "make audiot": [Key("cmd-t")],
+    "newmidit": [Key("shift-cmd-t")],
+    "new audiot": [Key("cmd-t")],
     "make many region": [Key("shift-cmd-m")],
     
     "(plug in) | third party": lambda m: focusCategories(3),
@@ -49,13 +50,16 @@ keymap = {
     "search": [Key("cmd-f")],
     "(show | hide) (sentence | seds)": [Key("cmd-alt-r")],
     "(show | hide) (devices | midi)": [Key("cmd-alt-l")],
+    # Open plugin manufacturers
     "sound toys": [Key("cmd-f"), "Soundtoys"],
     "native instruments": [Key("cmd-f"), "Native Instruments"],
     "fab filter": [Key("cmd-f"), "Fabfilter"],
     "oratorio | arterial": [Key("cmd-f"), "Arturia"],
     "valhalla": [Key("cmd-f"), "Valhalla"],
+    "isotope": [Key("cmd-f"), "izotope"],
     # Open instruments
     # Audreio
+
     "open (alter ego) | allj": [Key("cmd-f"), 
                        "audreio",
                        Key("down")],
