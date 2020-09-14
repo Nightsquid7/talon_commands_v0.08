@@ -56,7 +56,7 @@ ctx.keymap(
 
         # editor
         "comment line": Key("cmd-/"),
-        "swift print": ["print()", Key("left")],
+        
         "print string": ["\()", Key("left")],
         "print$0": "print($0)",
         "(certain | search in) project ": [Key("shift-cmd-f")],
@@ -95,7 +95,10 @@ ctx.keymap(
         "mark (iv | IV )  outlets": "// MARK: - IBOutlets",
         "mark private": "// MARK: - Private",
         "mark initialization": "// MARK: - Initialization",
-        "mark to do": "// TODO:  ",
+        "mark blank": "// MARK: ",
+        "mark temporary": "// MARK: TEMPORARY",
+        "mark to do": "// TODO: ",
+        "mark fixed me": "// FIXME: ", 
         "mark view did load": "// MARK: - viewDidLoad",
 
         # General swift?
