@@ -20,7 +20,6 @@ def focusCategories(upCount):
 def pressMultiple(key,times):
     for x in range(times):
       press(key)
-
      
 
 keymap = {
@@ -36,9 +35,12 @@ keymap = {
     "(hi | show) video": [Key("cmd-alt-v")],
     "(hi | show) groove": [Key("cmd-alt-g")],
     "lp | loup": [Key("cmd-l")],
+    "follow": [Key("shift-cmd-f")],
+    "height": [Key("h")],
 
     "newmidit": [Key("shift-cmd-t")],
     "new audiot": [Key("cmd-t")],
+    "group tracks": [Key("cmd-g")],
     "make many region": [Key("shift-cmd-m")],
     
     "(plug in) | third party": lambda m: focusCategories(3),
@@ -60,8 +62,11 @@ keymap = {
     # Open instruments
     # Audreio
 
-    "open (alter ego) | allj": [Key("cmd-f"), 
+    "open (alter ego) | andrea": [Key("cmd-f"), 
                        "audreio",
+                       Key("down")],
+    "open massive": [Key("cmd-f"),
+                       "massive x",
                        Key("down")],
     "open reactor": [Key("cmd-f"), 
                      "Reaktor",
@@ -71,5 +76,6 @@ keymap = {
                      "Kontakt",
                      lambda m: pressMultiple("down", 1)],
 }
+
 
 ctx.keymap(keymap)

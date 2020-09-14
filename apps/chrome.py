@@ -168,7 +168,10 @@ context.keymap(
         "audiokit docs": [focus_address_bar, "https://audiokit.io/docs/", Key("enter")],
         "live object model": [focus_address_bar, "https://docs.cycling74.com/max8/vignettes/live_object_model", Key("enter")],
         "splice sounds": [focus_address_bar, "https://splice.com/sounds", Key("enter")],
-        
+
+
+        # Temporary
+        "zeni resume builder": [focus_address_bar, "https://builder.zety.com/dashboard", Key("enter")],
         "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
         "(step one) | zeppelin master list": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/72", Key("enter")],
         "zeppelin audio list": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1GXv58WJPgQqYkR0SprHi6Pn8V1StkjMmBsLaGdN0-E0/edit#gid=0", Key("enter")],
@@ -177,7 +180,7 @@ context.keymap(
         "zeppelin (timesheet | clock out)": [focus_address_bar, "https://p.secure.freee.co.jp/", Key("enter")],
         "zeppelin workplace": [focus_address_bar, "https://zeppelin.workplace.com/?request_id=jindmlfmmgmciampolkpkmbdapmnoiamaponfmfk&login_type=0", Key("enter")],
         "zeppelin drive": [focus_address_bar, "https://drive.google.com/drive/folders/1sa0NKDBGaPI4jEgi7PpKwg5sgB0YJimI", Key("enter")],
-        # Temporary
+
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
         "(address bar | focus address | focus url | url)": focus_address_bar,

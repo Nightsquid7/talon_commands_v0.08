@@ -10,7 +10,7 @@ keymap = {
     "(locket | locket it) | (unlock it)": [command_click],
     "inspect": [lambda m: press_key_and_click(m, "alt", 1, 1)],
     "copy from keyboard | click4": [Key("alt-cmd-n")],
-    
+    "max obstruction": [Key("n"), "M4l.api."],
     # lazerD*K midi visualizer
     "great shape": "gridShapes",
     "scale actually": "scaleAttrui", 
