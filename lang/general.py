@@ -108,6 +108,8 @@ ctx.keymap(
         # custom
         "get checkmark": "- [ ] ",
 
+        # Printing
+        "swift print": ["print()", Key("left")],
         # JS
         "a single function": "async function",
         "js print": ["console.log()", Key("left")],
@@ -125,6 +127,7 @@ ctx.keymap(
         "superscript" : [Key("ctrl-cmd-+")],
         "article tag": ["<a href=\'></a>", Key("alt-left"), Key("left"), Key("left"), Key("left")],
         "paragraph tag": ["<p></p>", Key("alt-left"), Key("left"), Key("left"), Key("left")],
-
+        "form tag": ["<form action=\'></form>", Key("alt-left"), Key("left"), Key("left"), Key("left"),Key("left"),Key("left"),Key("left")],
+        "input tag": ["<input type=\' name=\'></input>", Key("alt-left"), Key("left"), Key("left"), Key("left"),Key("left"),Key("left"),Key("left")],
     }
 )
