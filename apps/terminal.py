@@ -108,7 +108,7 @@ keymap = {
     "zeppelin music": ['cd /Users/stevenberkowitz/Documents/Music/Zeppelin/ARaddin; ll', Key("enter")],
     "audio hijack folder": ['cd /Users/stevenberkowitz/Music/Audio\ Hijack; ls', Key("enter")],
     # Utility
-    "print working directory string": ["printf \"%q\\n\" \"$(pwd)\"",Key("enter")],
+    "print working directory string": ["pwdstring",Key("enter")],
     "finder": ["open -a finder .", Key("enter")],
     "new terminal window": 
     [Key("ctrl-1"),Key("right"), Key("right"), Key("down"),Key("down"),Key("right"),Key("down"),Key("down"),Key("down")],
@@ -131,10 +131,13 @@ keymap = {
     "(reload | run) shell commands": ["runz", Key("enter")],
     "openswiftlint": ["code .swiftlint.yml", Key("enter")],
     "(open apco man's | open app commands)": [ "code /Users/stevenberkowitz/.talon/user/talon_community/apps/"],
+    "open xcode project": ["open *proj", Key("enter")],
+
+    "open checklists": ["check", Key("enter")],
+   
     "open general commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/lang/general.py", Key("enter")],
     "open terminal commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/terminal.py", Key("enter")],
     "open xcode commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/xcode.py", Key("enter")],
-    "open xcode project": ["open *proj", Key("enter")],
     "open things commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/things.py", Key("enter")],
     "open max commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/max.py", Key("enter")],
     "open live commands": ["code /Users/stevenberkowitz/.talon/user/talon_community/apps/live.py", Key("enter")],
@@ -183,6 +186,7 @@ keymap = {
     "add and commit": "git commit -am \"",
     "get show": "git show ",
     "glow": ["glo ", Key("enter")],
+    "get log": "git log ",
     "get roughl | get rest log": ["git reflog", Key("enter")],
     "git list files": ["git ls-files", Key("enter")],
     "git remove": "git rm ",
@@ -201,6 +205,7 @@ keymap = {
     "get - | gets- | gets- dash": "git stash ",
     "get march | merge": "git merge ",
     "get clone": "git clone ",
+    "get resource staged": "git restore --staged",
     
     
     
@@ -328,7 +333,7 @@ keymap = {
     "cd {terminal.directory_shortcuts}": cd_directory_shortcut,
     "directory {terminal.directory_shortcuts}": name_directory_shortcuts,
     "(ls | run ellis | run alice)": "ls\n",
-    "(la | run la)": "ls -la\n",
+    "(la | run la)": "ls -lat\n",
     "(shell | shall ) shortlist": ["ll", Key("enter")],
     # "durrup": "cd ..; ls\n",
     "go back": "cd -\n",
