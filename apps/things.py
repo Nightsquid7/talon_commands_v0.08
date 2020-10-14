@@ -16,6 +16,7 @@ keymap = {
     "search": Key("cmd-f"),
     "clear date": [Key("cmd-r")],
     "(enter | edit) date": [Key("cmd-s")],
+    "show tags": [Key("ctrl-cmd-t")],
 }
 
 ctx.keymap(keymap)

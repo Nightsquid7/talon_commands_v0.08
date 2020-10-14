@@ -95,7 +95,7 @@ ctx.keymap(
         "mark (iv | IV )  outlets": "// MARK: - IBOutlets",
         "mark private": "// MARK: - Private",
         "mark initialization": "// MARK: - Initialization",
-        "mark blank": "// MARK: ",
+        "mark comment": "// MARK: - ",
         "mark temporary": "// MARK: TEMPORARY",
         "mark to do": "// TODO: ",
         "mark fixed me": "// FIXME: ", 

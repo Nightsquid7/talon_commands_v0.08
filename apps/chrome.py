@@ -172,6 +172,7 @@ context.keymap(
 
         # Temporary
         "zeni resume builder": [focus_address_bar, "https://builder.zety.com/dashboard", Key("enter")],
+        "zeppelin project board": [focus_address_bar, "https://github.com/zeppelin-inc/ARaddin-Dungeon-iOS/projects/2", Key("enter")],
         "zeppelin audio project": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/projects/1", Key("enter")],        
         "(step one) | zeppelin master list": [focus_address_bar, "https://github.com/zeppelin-inc/audio-assets/issues/72", Key("enter")],
         "zeppelin audio list": [focus_address_bar, "https://docs.google.com/spreadsheets/d/1GXv58WJPgQqYkR0SprHi6Pn8V1StkjMmBsLaGdN0-E0/edit#gid=0", Key("enter")],
@@ -183,6 +184,7 @@ context.keymap(
 
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
+        "switch account": [Key("ctrl-1"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("down")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
          Key("down"),Key("down"), Key("down"), Key("down")],

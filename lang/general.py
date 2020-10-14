@@ -110,6 +110,7 @@ ctx.keymap(
 
         # Printing
         "swift print": ["print()", Key("left")],
+        "swift log": ["os_log(\"\")", Key("left") , Key("left") ],
         # JS
         "a single function": "async function",
         "js print": ["console.log()", Key("left")],
