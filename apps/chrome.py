@@ -184,9 +184,9 @@ context.keymap(
 
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
-        "switch account": [Key("ctrl-1"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("down")],
+        "switch account": [Key("ctrl-5"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("down")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
-        "open bookmarks": [Key("ctrl-1"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
+        "open bookmarks": [Key("ctrl-5"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
          Key("down"),Key("down"), Key("down"), Key("down")],
         "Open in new tab": [Key("esc"), Key("cmd-enter")],
         "copy url": Key("escape y y"),
