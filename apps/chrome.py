@@ -161,7 +161,7 @@ context.keymap(
         "stack overflow":  [focus_address_bar, "https://stackoverflow.com", Key("enter")],
         "wanikani": [focus_address_bar, "https://www.wanikani.com", Key("enter")],
         "gmail" :  [focus_address_bar, "https://mail.google.com/mail/u/0/#inbox", Key("enter")],
-        "google documents | docs": [focus_address_bar, "https://docs.google.com/document/u/0/?tgif=d", Key("enter")],
+        "google (documents | docs)": [focus_address_bar, "https://docs.google.com/document/u/0/?tgif=d", Key("enter")],
         "google translate": [focus_address_bar, "https://translate.google.com/?hl=ja_JP", Key("enter")],
         "japanese dictionary": [focus_address_bar, "https://jisho.org", Key("enter")],
         "Apple developer account":  [focus_address_bar, "https://developer.apple.com/account/#/overview/E939BBZ6X4", Key("enter")],
@@ -184,7 +184,7 @@ context.keymap(
 
         "OPEN LEARN GET THE HARD WAY": [focus_address_bar, "file:///Users/stevenberkowitz/Downloads/learngitthehardway%206:23:20.pdf", Key("enter")],
         #
-        "switch account": [Key("ctrl-5"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("down")],
+        "switch account": [Key("ctrl-5"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("down"),Key("down")],
         "(address bar | focus address | focus url | url)": focus_address_bar,
         "open bookmarks": [Key("ctrl-5"), Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),Key("right"),
          Key("down"),Key("down"), Key("down"), Key("down")],
